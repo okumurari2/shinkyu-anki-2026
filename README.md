@@ -4,6 +4,54 @@
 
 > **免責**: AI(Claude)を使って半自動生成した個人の学習用教材です。**内容の正確性は保証しません。** 特に `進級::要確認` デッキと `unverified` タグのカードは、教科書・講義資料で必ず確認してください。大学の配布資料そのもの(入力 PDF とコメント原文の全文 CSV)はこのリポジトリに含めていません。
 
+## ひとことで言うと
+
+- 配布された「正解と解説」PDF には、問題文も選択肢もなく、**正解記号・国試番号・コメント1行**しかありません。そのコメントだけを材料に、「1問1答」のAnkiカードを作りました。
+- 現在 **14科・755枚**。そのうち根拠がはっきりしている **389枚**が各科デッキ、数値・薬剤・遺伝子を含むものや AI が補ったものなど **366枚**は `進級::要確認` に分けてあります。
+- **「どこまで信用できるか」を確認できる**ようにしてあります。各カードに、コメントのどこから作ったか(`basis`)と、コメント由来か AI の補完か(`content_source`)が付いています。
+- 国試番号から過去問を思い出して問題を作ることはしていません(間違いが混ざるため)。
+- 足りない科目は [COVERAGE.md](COVERAGE.md) にあります。
+
+**まず試すなら**: `out/shinkyu.apkg` を Anki に入れるだけです。
+
+## AI に読ませて使う
+
+このリポジトリは、**必要に応じて生成 AI(Claude、ChatGPT など)に読み込ませ、評価や使い方を聞く**ことを想定しています。リポジトリの URL、または `README.md`・`docs/`・`COVERAGE.md` を渡してください。
+
+推奨プロンプト(用途に合わせて選んでください):
+
+```
+【全体の評価】
+このリポジトリ(URL または添付ファイル)を読み、次を教えてください。
+1. 何を目的に、どんな方法でカードを作っているか(3行で)
+2. 作り方の弱点と、信用してよい範囲・してはいけない範囲
+3. 私が進級試験対策に使うなら、どの順番で何から手を付けるべきか
+
+【使い方を聞く】
+README と docs/METHOD.md を読み、Anki へのインポートから日々の学習、
+自分の科目を追加するまでの手順を、初心者向けに順を追って教えてください。
+
+【カードの出自を検証する】
+docs/VERIFY.md の手順に従い、添付の PDF と data/cards/〇〇.jsonl を突き合わせて、
+basis がコメントに含まれないカードと、コメントにない内容を含むカードを挙げてください。
+確信がないものは「判定不能」としてください。
+
+【特定の科の弱点を探す】
+review/〇〇.md と data/cards/〇〇.jsonl を読み、要確認カードの理由、
+独立レビューの指摘、この科で追加すべき論点を、推測で補わずに挙げてください。
+```
+
+AI の回答も誤ることがあります。医学的な内容は教科書で確認してください。
+
+## 参加・協力してくれる人を探しています
+
+技術の知識は要りません。次のような人を歓迎します。
+
+- **資料を持っている人**: まだ処理していない科の「正解と解説」PDF(未着手の科は [COVERAGE.md](COVERAGE.md) 参照)。
+- **設計に意見がある人**: 要確認を減らす基準、補完カードの作り方、タグや分類の付け方、他大学・他学年への広げ方。
+
+連絡は GitHub の Issues にお願いします。カードの誤りは、カード id(例: `CV-07-a`)と、根拠にした教科書の該当箇所を書いてください。
+
 ## 中身
 
 | パス | 内容 |
@@ -24,6 +72,29 @@
 1. `out/shinkyu.apkg` を Anki でインポートする(`ファイル → インポート`)。
 2. 再インポートしても、ノートの guid が固定されているため重複せず、学習履歴は保たれます。
 3. デッキは `進級::{科名}`(根拠が明確なカード)と `進級::要確認`(数値・薬剤・遺伝子などを含む、または補完したカード)に分かれます。
+
+## 作成済みの科目とファイルの場所
+
+科コードは各ファイル名に使われています(例: `data/cards/CV.jsonl`)。カード数は「全カード(うち本デッキ / 要確認)」です。
+
+| コード | 科 | カード | カード本体 | 抽出トピック | レビュー |
+|---|---|---|---|---|---|
+| AR | アレルギー・膠原病内科 | 33(4 / 29) | `data/cards/AR.jsonl` | `data/topics/AR.jsonl` | `review/AR.md` |
+| BR | 乳腺外科 | 11(7 / 4) | `data/cards/BR.jsonl` | `data/topics/BR.jsonl` | `review/BR.md` |
+| CV | 循環器内科 | 42(17 / 25) | `data/cards/CV.jsonl` | `data/topics/CV.jsonl` | `review/CV.md` |
+| DM | 糖尿病・代謝・内分泌内科 | 91(39 / 52) | `data/cards/DM.jsonl` | `data/topics/DM.jsonl` | `review/DM.md` |
+| EM | 医療倫理・医療文書 | 65(49 / 16) | `data/cards/EM.jsonl` | `data/topics/EM.jsonl` | `review/EM.md` |
+| GI | 消化器内科 | 65(50 / 15) | `data/cards/GI.jsonl` | `data/topics/GI.jsonl` | `review/GI.md` |
+| GS | 消化器外科 | 57(31 / 26) | `data/cards/GS.jsonl` | `data/topics/GS.jsonl` | `review/GS.md` |
+| HE | 血液内科 | 83(30 / 53) | `data/cards/HE.jsonl` | `data/topics/HE.jsonl` | `review/HE.md` |
+| ID | 感染症科 | 42(28 / 14) | `data/cards/ID.jsonl` | `data/topics/ID.jsonl` | `review/ID.md` |
+| NE | 脳神経内科 | 35(12 / 23) | `data/cards/NE.jsonl` | `data/topics/NE.jsonl` | `review/NE.md` |
+| NP | 腎臓内科 | 56(24 / 32) | `data/cards/NP.jsonl` | `data/topics/NP.jsonl` | `review/NP.md` |
+| PD | 小児科 | 48(20 / 28) | `data/cards/PD.jsonl` | `data/topics/PD.jsonl` | `review/PD.md` |
+| RE | 呼吸器内科 | 74(45 / 29) | `data/cards/RE.jsonl` | `data/topics/RE.jsonl` | `review/RE.md` |
+| RS | 呼吸器外科 | 53(33 / 20) | `data/cards/RS.jsonl` | `data/topics/RS.jsonl` | `review/RS.md` |
+
+合計 755 枚(本デッキ 389 / 要確認 366)。全科まとめたデッキは `out/shinkyu.apkg`、各科の元 PDF の md5 は `data/depts.json` にあります。
 
 ## 未着手の科目
 
