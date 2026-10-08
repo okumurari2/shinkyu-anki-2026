@@ -1,0 +1,42 @@
+{"dept_code": "NE", "src_no": 1, "specificity": "high", "card_policy": "make", "flags": [], "topic": "交叉性感覚障害・Horner症候群・嚥下障害・小脳性運動失調=Wallenberg症候群", "note": "", "topic_id": "NE-01-a"}
+{"dept_code": "NE", "src_no": 2, "specificity": "high", "card_policy": "make", "flags": [], "topic": "若年女性のMLF症候群の代表原因は多発性硬化症", "note": "", "topic_id": "NE-02-a"}
+{"dept_code": "NE", "src_no": 3, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "遺伝性小脳失調症の確定診断にはCAGリピート等の異常伸長を証明する遺伝学的検査を行う", "note": "", "topic_id": "NE-03-a"}
+{"dept_code": "NE", "src_no": 4, "specificity": "high", "card_policy": "make", "flags": [], "topic": "髄膜刺激症状+MRIでの髄膜高信号=急性髄膜炎を疑う", "note": "", "topic_id": "NE-04-a"}
+{"dept_code": "NE", "src_no": 5, "specificity": "high", "card_policy": "make", "flags": [], "topic": "近位筋低下・皮膚症状・高CK血症・大腿MRI高信号=皮膚筋炎", "note": "", "topic_id": "NE-05-a"}
+{"dept_code": "NE", "src_no": 6, "specificity": "high", "card_policy": "make", "flags": [], "topic": "日内変動のある眼瞼下垂+前縦隔腫瘤=胸腺腫合併の重症筋無力症", "note": "", "topic_id": "NE-06-a"}
+{"dept_code": "NE", "src_no": 7, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "DM1は19番染色体のDMPK遺伝子のCTGリピート異常伸長が原因", "note": "", "topic_id": "NE-07-a"}
+{"dept_code": "NE", "src_no": 8, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "ALSの病勢進行抑制効果が認められている薬剤(リルゾール、エダラボン)", "note": "メコバラミン大量療法も記載あり。カード化は要確認", "topic_id": "NE-08-a"}
+{"dept_code": "NE", "src_no": 9, "specificity": "high", "card_policy": "make", "flags": ["genetic", "drug"], "topic": "ヌシネルセン・リスジプラムはSMN2遺伝子のExon7スプライシングを修飾し機能的SMN蛋白を増やす", "note": "疾患名(SMA)はコメントになし", "topic_id": "NE-09-a"}
+{"dept_code": "NE", "src_no": 10, "specificity": "high", "card_policy": "make", "flags": ["disc", "drug", "genetic"], "topic": "球脊髄性筋萎縮症(Kennedy病)ではテストステロン存在下で変異アンドロゲン受容体が核内蓄積する", "note": "コメントは「変性受容体」。変異アンドロゲン受容体の誤記と解釈。疾患名はコメントになく補完", "topic_id": "NE-10-a"}
+{"dept_code": "NE", "src_no": 11, "specificity": "high", "card_policy": "make", "flags": ["drug", "numeric"], "topic": "発症4.5時間以内の主幹脳動脈閉塞にはrt-PA静注療法+機械的血栓回収術", "note": "", "topic_id": "NE-11-a"}
+{"dept_code": "NE", "src_no": 12, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "急性期脳出血では血腫拡大防止のため速やかに降圧する(収縮期血圧140mmHg未満を目指す)", "note": "", "topic_id": "NE-12-a"}
+{"dept_code": "NE", "src_no": 13, "specificity": "high", "card_policy": "make", "flags": [], "topic": "SAHの再出血予防の根治術はクリッピング術または血管内コイル塞栓術", "note": "", "topic_id": "NE-13-a"}
+{"dept_code": "NE", "src_no": 14, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "アルツハイマー型認知症にはコリンエステラーゼ阻害薬・NMDA受容体拮抗薬を用いる", "note": "", "topic_id": "NE-14-a"}
+{"dept_code": "NE", "src_no": 15, "specificity": "high", "card_policy": "make", "flags": [], "topic": "DLBでは抗精神病薬への過敏性があり錐体外路症状が著しく悪化しやすい", "note": "", "topic_id": "NE-15-a"}
+{"dept_code": "NE", "src_no": 16, "specificity": "high", "card_policy": "make", "flags": [], "topic": "特発性正常圧水頭症のシャント術適応判定には脳脊髄液タップテストを行う", "note": "", "topic_id": "NE-16-a"}
+{"dept_code": "NE", "src_no": 17, "specificity": "high", "card_policy": "make", "flags": [], "topic": "左右の脳をつなぐ構造は脳梁", "note": "", "topic_id": "NE-17-a"}
+{"dept_code": "NE", "src_no": 18, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "大脳辺縁系の理解", "note": "話題レベル", "topic_id": "NE-18-a"}
+{"dept_code": "NE", "src_no": 19, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "脳血管の走行(お絵描き)", "note": "内容なし。図が必要", "topic_id": "NE-19-a"}
+{"dept_code": "NE", "src_no": 20, "specificity": "high", "card_policy": "make", "flags": [], "topic": "右後頭葉の障害=左同名半盲", "note": "", "topic_id": "NE-20-a"}
+{"dept_code": "NE", "src_no": 21, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "動眼神経が支配する内眼筋", "note": "コメントは外眼筋/内眼筋に分けて考えるのみ。内眼筋の内訳は補完", "topic_id": "NE-21-a"}
+{"dept_code": "NE", "src_no": 22, "specificity": "high", "card_policy": "make", "flags": [], "topic": "顔面神経が支配する味覚は舌の前2/3", "note": "", "topic_id": "NE-22-a"}
+{"dept_code": "NE", "src_no": 23, "specificity": "high", "card_policy": "make", "flags": [], "topic": "右胸鎖乳突筋は頸を左へ回旋させる", "note": "", "topic_id": "NE-23-a"}
+{"dept_code": "NE", "src_no": 24, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "錐体路の走行", "note": "論点が広く1対1にならない", "topic_id": "NE-24-a"}
+{"dept_code": "NE", "src_no": 25, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "Brown-Sequard症候群の症候", "note": "コメントは名称のみ。標準症候(補完)", "topic_id": "NE-25-a"}
+{"dept_code": "NE", "src_no": 26, "specificity": "high", "card_policy": "make", "flags": [], "topic": "神経筋接合部障害では反復刺激検査でwaning/waxingがみられる", "note": "", "topic_id": "NE-26-a"}
+{"dept_code": "NE", "src_no": 26, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "重症筋無力症はwaning、Lambert-Eaton症候群はwaxing", "note": "対比(補完)", "topic_id": "NE-26-b"}
+{"dept_code": "NE", "src_no": 27, "specificity": "high", "card_policy": "make", "flags": [], "topic": "伝導ブロック・脱髄のあるニューロパチー=CIDP", "note": "", "topic_id": "NE-27-a"}
+{"dept_code": "NE", "src_no": 28, "specificity": "high", "card_policy": "make", "flags": [], "topic": "左右差のある大脳皮質症状=大脳皮質基底核変性症", "note": "", "topic_id": "NE-28-a"}
+{"dept_code": "NE", "src_no": 29, "specificity": "high", "card_policy": "make", "flags": [], "topic": "ALSでは上位運動ニューロン(錐体路)と下位運動ニューロン(前角)が障害される", "note": "", "topic_id": "NE-29-a"}
+{"dept_code": "NE", "src_no": 30, "specificity": "mid", "card_policy": "skip", "flags": [], "topic": "脊髄の長大病変の鑑別", "note": "複数疾患で1つに定まらない", "topic_id": "NE-30-a"}
+{"dept_code": "NE", "src_no": 31, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "前頭側頭型認知症(FTD)の症状", "note": "コメントは論点のみ。標準症状(補完)", "topic_id": "NE-31-a"}
+{"dept_code": "NE", "src_no": 32, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "最も頻度の高い神経変性疾患", "note": "コメントは論点のみ。アルツハイマー病(補完)", "topic_id": "NE-32-a"}
+{"dept_code": "NE", "src_no": 33, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "早く治療を開始することが重要", "note": "疾患不明", "topic_id": "NE-33-a"}
+{"dept_code": "NE", "src_no": 34, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "ショックには昇圧剤", "note": "疾患不明", "topic_id": "NE-34-a"}
+{"dept_code": "NE", "src_no": 35, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "解剖の種類の理解", "note": "話題レベル", "topic_id": "NE-35-a"}
+{"dept_code": "NE", "src_no": 36, "specificity": "high", "card_policy": "make", "flags": ["numeric"], "topic": "脊髄の下端はL1-2付近、ヤコビー線はL4-5", "note": "", "topic_id": "NE-36-a"}
+{"dept_code": "NE", "src_no": 37, "specificity": "high", "card_policy": "make", "flags": ["disc"], "topic": "ウェルニッケ脳症の3主徴は意識障害・眼球運動障害・小脳性運動失調", "note": "元コメントは「脳幹、末梢神経が障害される」。標準の記述(3主徴)に置換", "topic_id": "NE-37-a"}
+{"dept_code": "NE", "src_no": 38, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "ウェルニッケ脳症の治療はビタミンB1補充", "note": "", "topic_id": "NE-38-a"}
+{"dept_code": "NE", "src_no": 39, "specificity": "high", "card_policy": "make", "flags": [], "topic": "ウェルニッケ脳症が慢性化し後遺症が残ったもの=コルサコフ症候群", "note": "", "topic_id": "NE-39-a"}
+{"dept_code": "NE", "src_no": 40, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "本態性振戦の特徴", "note": "コメントは「特徴と治療」のみ。標準(補完)", "topic_id": "NE-40-a"}
+{"dept_code": "NE", "src_no": 40, "specificity": "mid", "card_policy": "make", "flags": ["drug"], "topic": "本態性振戦の治療薬", "note": "同上。薬剤のため要確認", "topic_id": "NE-40-b"}

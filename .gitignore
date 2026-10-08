@@ -1,0 +1,6 @@
+input/
+.venv/
+__pycache__/
+.DS_Store
+data/rows/
+review/indep/input_*.json

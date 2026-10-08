@@ -1,0 +1,96 @@
+{"dept_code": "DM", "src_no": 1, "specificity": "high", "card_policy": "make", "flags": ["numeric"], "topic": "GH過剰の診断には75gOGTT(GH抑制の確認)やIGF-I測定を行う", "note": "", "topic_id": "DM-01-a"}
+{"dept_code": "DM", "src_no": 1, "specificity": "high", "card_policy": "make", "flags": [], "topic": "ITT(インスリン低血糖試験)は分泌不全の診断に用い、GH過剰の診断には有用でない", "note": "", "topic_id": "DM-01-b"}
+{"dept_code": "DM", "src_no": 2, "specificity": "high", "card_policy": "make", "flags": [], "topic": "ADH分泌不全では腎尿細管での水再吸収ができず著明な低張尿(尿浸透圧低下)となる", "note": "疾患名(中枢性尿崩症)はコメントになし", "topic_id": "DM-02-a"}
+{"dept_code": "DM", "src_no": 3, "specificity": "high", "card_policy": "make", "flags": ["numeric", "drug"], "topic": "意識障害を伴う重症低Na血症では脳浮腫を防ぐため高張食塩水(3%)で緊急補正する", "note": "", "topic_id": "DM-03-a"}
+{"dept_code": "DM", "src_no": 4, "specificity": "high", "card_policy": "make", "flags": [], "topic": "高プロラクチン血症の3大原因は薬剤性・下垂体腺腫・原発性甲状腺機能低下症", "note": "疾患名(高PRL血症)はコメントになく補完", "topic_id": "DM-04-a"}
+{"dept_code": "DM", "src_no": 5, "specificity": "high", "card_policy": "make", "flags": [], "topic": "副腎性Cushing症候群ではデキサメタゾン抑制試験で自律性分泌を確認する", "note": "", "topic_id": "DM-05-a"}
+{"dept_code": "DM", "src_no": 5, "specificity": "high", "card_policy": "make", "flags": [], "topic": "副腎皮質シンチは機能局在診断に有用", "note": "", "topic_id": "DM-05-b"}
+{"dept_code": "DM", "src_no": 6, "specificity": "high", "card_policy": "make", "flags": ["numeric", "drug"], "topic": "シックデイには副腎クリーゼを防ぐため糖質コルチコイドを増量する", "note": "倍数(2〜3倍)はコメントにあるが数値のため要確認", "topic_id": "DM-06-a"}
+{"dept_code": "DM", "src_no": 7, "specificity": "high", "card_policy": "make", "flags": [], "topic": "高血圧と低K血症で副腎腫瘍がある場合はまずPAC/PRA比(ARR)でスクリーニングする", "note": "疾患名(原発性アルドステロン症)はコメントになし", "topic_id": "DM-07-a"}
+{"dept_code": "DM", "src_no": 8, "specificity": "high", "card_policy": "make", "flags": [], "topic": "急性副腎不全の典型は低血圧・低血糖・低Na・高K傾向で、本質は低コルチゾール血症", "note": "", "topic_id": "DM-08-a"}
+{"dept_code": "DM", "src_no": 9, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "褐色細胞腫の血圧管理はα遮断薬が第一選択", "note": "疾患名はコメントになく補完", "topic_id": "DM-09-a"}
+{"dept_code": "DM", "src_no": 9, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "β遮断薬単独投与は禁忌", "note": "", "topic_id": "DM-09-b"}
+{"dept_code": "DM", "src_no": 10, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "免疫チェックポイント阻害薬による下垂体機能低下では直ちに副腎皮質ステロイドを補充する", "note": "", "topic_id": "DM-10-a"}
+{"dept_code": "DM", "src_no": 11, "specificity": "high", "card_policy": "make", "flags": [], "topic": "破壊性甲状腺炎では超音波での血流が低下する", "note": "", "topic_id": "DM-11-a"}
+{"dept_code": "DM", "src_no": 11, "specificity": "high", "card_policy": "make", "flags": [], "topic": "バセドウ病との鑑別には自己抗体(TRAb)の確認が有用", "note": "", "topic_id": "DM-11-b"}
+{"dept_code": "DM", "src_no": 12, "specificity": "high", "card_policy": "make", "flags": [], "topic": "橋本病ではバセドウ病の指標であるTSAbは陰性", "note": "", "topic_id": "DM-12-a"}
+{"dept_code": "DM", "src_no": 13, "specificity": "high", "card_policy": "make", "flags": [], "topic": "交感神経過緊張では瞼裂開大を生じ、眼瞼下垂は重症筋無力症などで見られる逆の所見", "note": "", "topic_id": "DM-13-a"}
+{"dept_code": "DM", "src_no": 14, "specificity": "high", "card_policy": "make", "flags": [], "topic": "破壊性甲状腺炎による中毒症は一過性で自然軽快するため再検して経過観察する", "note": "", "topic_id": "DM-14-a"}
+{"dept_code": "DM", "src_no": 15, "specificity": "high", "card_policy": "make", "flags": [], "topic": "亜急性甲状腺炎は先行する上気道感染・前頸部痛・高CRP・破壊性中毒症が典型", "note": "疾患名はコメントになく補完", "topic_id": "DM-15-a"}
+{"dept_code": "DM", "src_no": 16, "specificity": "high", "card_policy": "make", "flags": [], "topic": "超音波で悪性示唆所見(微細石灰化など)がある甲状腺結節は穿刺吸引細胞診を行う", "note": "", "topic_id": "DM-16-a"}
+{"dept_code": "DM", "src_no": 17, "specificity": "high", "card_policy": "make", "flags": [], "topic": "原発性副甲状腺機能亢進症では尿中Ca排泄が増加する", "note": "疾患名はコメントになし", "topic_id": "DM-17-a"}
+{"dept_code": "DM", "src_no": 17, "specificity": "high", "card_policy": "make", "flags": [], "topic": "尿中Ca排泄の低下は家族性低Ca尿性高Ca血症(FHH)との鑑別点", "note": "", "topic_id": "DM-17-b"}
+{"dept_code": "DM", "src_no": 18, "specificity": "high", "card_policy": "make", "flags": [], "topic": "重症高Ca血症は生理食塩水の大量輸液で脱水補正と尿中Ca排泄促進を最優先する", "note": "", "topic_id": "DM-18-a"}
+{"dept_code": "DM", "src_no": 19, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "MEN1は下垂体・副甲状腺・膵の腫瘍を合併する(3Ps)", "note": "", "topic_id": "DM-19-a"}
+{"dept_code": "DM", "src_no": 19, "specificity": "high", "card_policy": "make", "flags": [], "topic": "MEN1の反復潰瘍は膵ガストリノーマによるガストリン上昇が原因", "note": "", "topic_id": "DM-19-b"}
+{"dept_code": "DM", "src_no": 20, "specificity": "high", "card_policy": "make", "flags": [], "topic": "エストラジオール低値でFSH高値なら卵巣不全が確定する", "note": "", "topic_id": "DM-20-a"}
+{"dept_code": "DM", "src_no": 21, "specificity": "high", "card_policy": "make", "flags": [], "topic": "低血糖時はインスリン分泌が低下し拮抗ホルモンが増加する", "note": "", "topic_id": "DM-21-a"}
+{"dept_code": "DM", "src_no": 21, "specificity": "high", "card_policy": "make", "flags": [], "topic": "グルカゴンは肝グリコーゲン分解・糖新生を促進する", "note": "", "topic_id": "DM-21-b"}
+{"dept_code": "DM", "src_no": 21, "specificity": "high", "card_policy": "make", "flags": [], "topic": "GLP-1のインスリン分泌促進作用は血糖依存性で低血糖時には低下する", "note": "", "topic_id": "DM-21-c"}
+{"dept_code": "DM", "src_no": 22, "specificity": "high", "card_policy": "make", "flags": [], "topic": "夜間絶食時の血糖は主に肝糖産生によって維持される", "note": "", "topic_id": "DM-22-a"}
+{"dept_code": "DM", "src_no": 22, "specificity": "high", "card_policy": "make", "flags": [], "topic": "絶食初期は肝グリコーゲン分解が重要で、絶食が長くなるほど糖新生の寄与が増える", "note": "", "topic_id": "DM-22-b"}
+{"dept_code": "DM", "src_no": 23, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "血糖・インスリンの変化の組合せ(選択肢a〜e)", "note": "選択肢依存", "topic_id": "DM-23-a"}
+{"dept_code": "DM", "src_no": 24, "specificity": "high", "card_policy": "make", "flags": [], "topic": "インスリンは糖・脂質・蛋白代謝に対する代表的な同化ホルモン", "note": "", "topic_id": "DM-24-a"}
+{"dept_code": "DM", "src_no": 24, "specificity": "high", "card_policy": "make", "flags": [], "topic": "インスリンは糖新生・脂肪分解・蛋白分解を抑制する", "note": "", "topic_id": "DM-24-b"}
+{"dept_code": "DM", "src_no": 25, "specificity": "high", "card_policy": "make", "flags": [], "topic": "溶血や出血で赤血球寿命が短縮するとHbA1cは実際の血糖状態より低値となる", "note": "", "topic_id": "DM-25-a"}
+{"dept_code": "DM", "src_no": 25, "specificity": "high", "card_policy": "make", "flags": [], "topic": "尿糖は腎糖排泄閾値に左右され、尿糖陰性だけでは糖尿病を否定できない", "note": "", "topic_id": "DM-25-b"}
+{"dept_code": "DM", "src_no": 26, "specificity": "high", "card_policy": "make", "flags": [], "topic": "DKAでは悪心・嘔吐・腹痛などの消化器症状を呈し急性腹症と誤認されうる", "note": "", "topic_id": "DM-26-a"}
+{"dept_code": "DM", "src_no": 26, "specificity": "high", "card_policy": "make", "flags": [], "topic": "DKAではインスリン作用不足により脂肪分解亢進・FFA増加・肝β酸化とケトン体産生亢進が生じる", "note": "", "topic_id": "DM-26-b"}
+{"dept_code": "DM", "src_no": 27, "specificity": "high", "card_policy": "make", "flags": [], "topic": "黒色表皮腫は高度なインスリン抵抗性を示唆する身体所見", "note": "", "topic_id": "DM-27-a"}
+{"dept_code": "DM", "src_no": 27, "specificity": "high", "card_policy": "make", "flags": [], "topic": "若年でも肥満とインスリン抵抗性を背景に2型糖尿病を発症する", "note": "", "topic_id": "DM-27-b"}
+{"dept_code": "DM", "src_no": 28, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病と診断したらまず病型・インスリン分泌能・合併症を評価する", "note": "", "topic_id": "DM-28-a"}
+{"dept_code": "DM", "src_no": 29, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病合併妊娠では妊娠前から良好な血糖管理(妊娠前管理)が重要", "note": "", "topic_id": "DM-29-a"}
+{"dept_code": "DM", "src_no": 29, "specificity": "high", "card_policy": "make", "flags": [], "topic": "妊娠により糖尿病網膜症が悪化することがあり眼科との連携が重要", "note": "", "topic_id": "DM-29-b"}
+{"dept_code": "DM", "src_no": 30, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "高血圧を合併する糖尿病では食塩は1日6g未満を目標とする", "note": "", "topic_id": "DM-30-a"}
+{"dept_code": "DM", "src_no": 30, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "糖尿病患者の運動は中等度の有酸素運動を週150分程度から始める", "note": "", "topic_id": "DM-30-b"}
+{"dept_code": "DM", "src_no": 30, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "肥満を伴う2型糖尿病では体重の約5%の減量でも血糖・血圧・脂質の改善が期待できる", "note": "", "topic_id": "DM-30-c"}
+{"dept_code": "DM", "src_no": 31, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "糖尿病の食事療法でも炭水化物は総エネルギーの50〜60%摂取する", "note": "", "topic_id": "DM-31-a"}
+{"dept_code": "DM", "src_no": 31, "specificity": "high", "card_policy": "make", "flags": [], "topic": "2型糖尿病のエネルギー摂取量は年齢・身体活動量・肥満度を考慮して設定する", "note": "", "topic_id": "DM-31-b"}
+{"dept_code": "DM", "src_no": 32, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "SGLT2阻害薬はまれにケトアシドーシス(正常血糖DKAを含む)を生じる", "note": "", "topic_id": "DM-32-a"}
+{"dept_code": "DM", "src_no": 32, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "メトホルミンはまれに乳酸アシドーシスを生じる", "note": "", "topic_id": "DM-32-b"}
+{"dept_code": "DM", "src_no": 32, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "チアゾリジン薬は浮腫・体重増加・心不全に注意する", "note": "", "topic_id": "DM-32-c"}
+{"dept_code": "DM", "src_no": 33, "specificity": "high", "card_policy": "make", "flags": [], "topic": "インスリン注射後は針を皮下に数秒間保持してから抜く", "note": "", "topic_id": "DM-33-a"}
+{"dept_code": "DM", "src_no": 33, "specificity": "high", "card_policy": "make", "flags": [], "topic": "インスリン注射部位は少しずつずらす(同一部位反復で脂肪肥厚・吸収不安定)", "note": "", "topic_id": "DM-33-b"}
+{"dept_code": "DM", "src_no": 33, "specificity": "high", "card_policy": "make", "flags": [], "topic": "インスリン注射針は原則1回ごとに交換する", "note": "", "topic_id": "DM-33-c"}
+{"dept_code": "DM", "src_no": 34, "specificity": "high", "card_policy": "make", "flags": [], "topic": "高齢者のインスリン自己注射導入では認知機能の評価が重要", "note": "", "topic_id": "DM-34-a"}
+{"dept_code": "DM", "src_no": 35, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "SU薬服用中の高齢者の空腹時運動後の動悸・意識障害はまず低血糖を考える", "note": "", "topic_id": "DM-35-a"}
+{"dept_code": "DM", "src_no": 36, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病性多発神経障害は下肢末端から左右対称に出現し靴下型の感覚障害を呈する", "note": "", "topic_id": "DM-36-a"}
+{"dept_code": "DM", "src_no": 36, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病性多発神経障害ではアキレス腱反射が低下・消失することが多い", "note": "", "topic_id": "DM-36-b"}
+{"dept_code": "DM", "src_no": 36, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病の自律神経障害には起立性低血圧・胃腸運動障害・排尿障害・勃起障害・発汗異常がある", "note": "", "topic_id": "DM-36-c"}
+{"dept_code": "DM", "src_no": 37, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病網膜症は初期に自覚症状に乏しく定期的な眼底評価が重要", "note": "", "topic_id": "DM-37-a"}
+{"dept_code": "DM", "src_no": 37, "specificity": "high", "card_policy": "make", "flags": [], "topic": "増殖糖尿病網膜症では新生血管から硝子体出血・牽引性網膜剥離を生じる", "note": "", "topic_id": "DM-37-b"}
+{"dept_code": "DM", "src_no": 38, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病性腎症の早期評価には尿中アルブミン/クレアチニン比(UACR)が重要", "note": "", "topic_id": "DM-38-a"}
+{"dept_code": "DM", "src_no": 38, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病性腎症の早期はeGFRが保たれ、尿蛋白定性が陰性でもアルブミン尿を認めうる", "note": "", "topic_id": "DM-38-b"}
+{"dept_code": "DM", "src_no": 38, "specificity": "high", "card_policy": "make", "flags": ["numeric"], "topic": "UACRの区分(30mg/gCr未満、30〜299、300以上)", "note": "数値のため要確認", "topic_id": "DM-38-c"}
+{"dept_code": "DM", "src_no": 39, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病性腎症の早期には糸球体過剰濾過・糸球体内圧上昇がみられる", "note": "", "topic_id": "DM-39-a"}
+{"dept_code": "DM", "src_no": 39, "specificity": "high", "card_policy": "make", "flags": [], "topic": "アルブミン尿は糖尿病性腎症の比較的早期から認められる", "note": "", "topic_id": "DM-39-b"}
+{"dept_code": "DM", "src_no": 40, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病性足病変では神経障害で痛みを感じにくく、傷に気づかず潰瘍・壊疽に進展しうる", "note": "", "topic_id": "DM-40-a"}
+{"dept_code": "DM", "src_no": 40, "specificity": "high", "card_policy": "make", "flags": [], "topic": "糖尿病患者には日常的な足の観察とフットケアが重要", "note": "", "topic_id": "DM-40-b"}
+{"dept_code": "DM", "src_no": 41, "specificity": "high", "card_policy": "make", "flags": [], "topic": "内分泌疾患による肥満は二次性肥満に分類される", "note": "", "topic_id": "DM-41-a"}
+{"dept_code": "DM", "src_no": 41, "specificity": "high", "card_policy": "make", "flags": [], "topic": "肥満では脂肪細胞由来のアディポネクチンが低下しインスリン抵抗性・動脈硬化に関与する", "note": "", "topic_id": "DM-41-b"}
+{"dept_code": "DM", "src_no": 41, "specificity": "mid", "card_policy": "skip", "flags": ["numeric"], "topic": "原発性肥満の割合・Cushing症候群の所見(選択肢c)", "note": "数値・選択肢依存", "topic_id": "DM-41-c"}
+{"dept_code": "DM", "src_no": 42, "specificity": "mid", "card_policy": "skip", "flags": ["numeric", "guideline"], "topic": "高齢者の栄養管理(エネルギー量・糖質・脂肪・蛋白・水分)", "note": "数値・ガイドライン依存", "topic_id": "DM-42-a"}
+{"dept_code": "DM", "src_no": 43, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "メタボリックシンドロームの腹囲基準は男性85cm以上・女性90cm以上", "note": "", "topic_id": "DM-43-a"}
+{"dept_code": "DM", "src_no": 43, "specificity": "high", "card_policy": "make", "flags": ["numeric", "guideline"], "topic": "糖尿病の診断基準(HbA1c 6.5%以上など)", "note": "", "topic_id": "DM-43-b"}
+{"dept_code": "DM", "src_no": 43, "specificity": "mid", "card_policy": "skip", "flags": ["numeric", "guideline"], "topic": "その他の診断基準(血圧・脂質・尿酸)", "note": "選択肢依存で数値多数", "topic_id": "DM-43-c"}
+{"dept_code": "DM", "src_no": 44, "specificity": "high", "card_policy": "make", "flags": ["numeric"], "topic": "炭水化物・蛋白質は4kcal/g、脂質は9kcal/g", "note": "", "topic_id": "DM-44-a"}
+{"dept_code": "DM", "src_no": 44, "specificity": "high", "card_policy": "make", "flags": ["numeric"], "topic": "体脂肪1kgは約7,000kcal", "note": "", "topic_id": "DM-44-b"}
+{"dept_code": "DM", "src_no": 44, "specificity": "low", "card_policy": "skip", "flags": ["numeric"], "topic": "目標エネルギー量の計算", "note": "症例の数値計算", "topic_id": "DM-44-c"}
+{"dept_code": "DM", "src_no": 45, "specificity": "high", "card_policy": "make", "flags": [], "topic": "トリグリセリドはカイロミクロンとVLDLに多く含まれる", "note": "", "topic_id": "DM-45-a"}
+{"dept_code": "DM", "src_no": 45, "specificity": "high", "card_policy": "make", "flags": [], "topic": "コレステロールはLDLとHDLに多く含まれる", "note": "", "topic_id": "DM-45-b"}
+{"dept_code": "DM", "src_no": 45, "specificity": "high", "card_policy": "make", "flags": [], "topic": "カイロミクロンは空腹時は基本的に出現しない", "note": "", "topic_id": "DM-45-c"}
+{"dept_code": "DM", "src_no": 46, "specificity": "high", "card_policy": "make", "flags": [], "topic": "LDLコレステロールはメタボリックシンドロームの診断基準に含まれない", "note": "", "topic_id": "DM-46-a"}
+{"dept_code": "DM", "src_no": 47, "specificity": "high", "card_policy": "make", "flags": [], "topic": "低アルブミン血症では肝での代償性合成増加によりVLDL・LDLが上昇する", "note": "疾患名(ネフローゼ)はコメントになし", "topic_id": "DM-47-a"}
+{"dept_code": "DM", "src_no": 47, "specificity": "high", "card_policy": "make", "flags": [], "topic": "肝での蛋白合成が低下するとコレステロールは低値となる", "note": "", "topic_id": "DM-47-b"}
+{"dept_code": "DM", "src_no": 47, "specificity": "high", "card_policy": "make", "flags": [], "topic": "LPL欠損ではカイロミクロンが蓄積し高TG血症が主体でLDLコレステロールは上昇しない", "note": "", "topic_id": "DM-47-c"}
+{"dept_code": "DM", "src_no": 48, "specificity": "high", "card_policy": "make", "flags": [], "topic": "腱黄色腫は家族性高コレステロール血症に特徴的", "note": "", "topic_id": "DM-48-a"}
+{"dept_code": "DM", "src_no": 48, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "FHの主因はLDL受容体異常", "note": "", "topic_id": "DM-48-b"}
+{"dept_code": "DM", "src_no": 48, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "FHは常染色体顕性(優性)遺伝", "note": "", "topic_id": "DM-48-c"}
+{"dept_code": "DM", "src_no": 49, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "ABCG2は尿酸排泄に関与するトランスポーターで、変異により高尿酸血症が起こる", "note": "", "topic_id": "DM-49-a"}
+{"dept_code": "DM", "src_no": 49, "specificity": "high", "card_policy": "make", "flags": ["genetic"], "topic": "URAT1は近位尿細管で尿酸再吸収を担い、機能亢進で高尿酸血症となる", "note": "コメントはトランスポーター名なし。URAT1は補完(要確認)", "topic_id": "DM-49-b"}
+{"dept_code": "DM", "src_no": 50, "specificity": "high", "card_policy": "make", "flags": [], "topic": "脱水や激しい運動は痛風発作の誘因となる", "note": "選択肢bの具体名はコメントになし。補完", "topic_id": "DM-50-a"}
+{"dept_code": "DM", "src_no": 50, "specificity": "high", "card_policy": "make", "flags": [], "topic": "ビール(アルコール)は痛風発作の代表的誘因", "note": "", "topic_id": "DM-50-b"}
+{"dept_code": "DM", "src_no": 50, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "尿酸降下薬の開始初期は痛風発作が起こりやすい", "note": "", "topic_id": "DM-50-c"}
+{"dept_code": "DM", "src_no": 51, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "痛風発作の第一選択はNSAID", "note": "", "topic_id": "DM-51-a"}
+{"dept_code": "DM", "src_no": 51, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "グルココルチコイドはNSAIDが使用できない場合に用いる", "note": "", "topic_id": "DM-51-b"}
+{"dept_code": "DM", "src_no": 51, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "尿酸降下薬は急性期には開始しない", "note": "", "topic_id": "DM-51-c"}

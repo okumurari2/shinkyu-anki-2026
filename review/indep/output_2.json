@@ -1,0 +1,296 @@
+[
+ {
+  "id": "EM-11-b",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「含まれないものは?」は無限に答えがありうる(氏名・住所等も含まれない)。コメントの3項目だけが正解とは限らず1対1で答えられない。",
+  "suggestion": "「学歴・国籍・職業的地位は要配慮個人情報か?」の形にする。"
+ },
+ {
+  "id": "EM-14-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "16歳未満の研究対象者では代諾者のインフォームド・コンセントも要る。アセントのみを答えにすると不完全で誤解を招く。",
+  "suggestion": "「代諾者の同意に加え」を補うか、「本人から得るもの」と限定する。"
+ },
+ {
+  "id": "EM-19-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "「セカンドオピニオンの根拠は?」は法的根拠なのか理念なのかが曖昧。日本の法制度上は明文規定がない。",
+  "suggestion": "「患者の権利として位置づけた宣言は?」など問いを限定する。"
+ },
+ {
+  "id": "EM-21-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "宗教的輸血拒否への「まず行うこと」は、本人の意思確認、十分な説明、倫理委員会相談など複数の答えが想定できる。問題文がないと1対1にならない。",
+  "suggestion": "「自己決定の前提として本人に伝えるべきことは?」のように限定する。"
+ },
+ {
+  "id": "EM-24-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "DNARは医師による蘇生を行わない指示であり、「本人の意思決定」と言い切ると定義として不正確。本人意思を尊重して出される指示、が標準的な理解。",
+  "suggestion": "「DNARで尊重すべきは誰の意思か?」とし、定義と意思尊重を分ける。"
+ },
+ {
+  "id": "EM-26-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "「母親の主張が先行している場面」だけでは状況が不明で、前提なしに答えられない。傾聴以外の選択肢もありうる。",
+  "suggestion": "「親が先に主張する未成年患者の診察でまず行うこと」など場面を明示する。"
+ },
+ {
+  "id": "EM-30-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "インシデントレポートの記載事項として「改善策」だけを答えにするのは不十分。標準的には事実経過・状況が中心で、個人責任追及はしない。",
+  "suggestion": "「事実経過」を含める。または「報告数が少ない=安全」の対比カードに集約する。"
+ },
+ {
+  "id": "EM-35-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "診療録管理体制加算の施設基準は「退院後14日以内に要約作成」ではなく、その作成割合を問う内容で、単純化されている。診療報酬の数値は国試範囲外。",
+  "suggestion": "診療報酬・数値は除外するか、割合要件を含めて正確に書く。"
+ },
+ {
+  "id": "EM-36-b",
+  "severity": "low",
+  "category": "flags",
+  "issue": "アレルギー歴・ワクチン接種歴を理由に drug_indication が付いているが、薬剤適応の内容ではない。",
+  "suggestion": "drug_indication を外す。"
+ },
+ {
+  "id": "EM-38-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "「2〜3年」は医療法(2年)と保険医療機関の規則(3年)の差を丸めたもので、根拠が示されず1対1の暗記になりにくい。",
+  "suggestion": "「診療録以外の諸記録は2〜3年(診療録は5年)」と対比を明示する。"
+ },
+ {
+  "id": "EM-39-c",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "処方箋は歯科医師も交付できる(歯科医師法)。「医師のみ」は非標準で、「医師のみ」が正解になるのは薬剤師・看護師との対比の場合に限る。",
+  "suggestion": "「医師・歯科医師(薬剤師・看護師は不可)」などに修正する。"
+ },
+ {
+  "id": "EM-40-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "死亡診断書は「署名」または「記名押印」が必要で、「押印は不要」は不正確。3事項を1枚に詰めておりテストしにくい。",
+  "suggestion": "「署名または記名押印」と表現を直す。3つに分割する。"
+ },
+ {
+  "id": "GI-01-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "前半と後半の2つを聞いている。早期癌でも隆起型(0-I)はあり、「進行癌のことが多い」の根拠が弱い。",
+  "suggestion": "問いを1つに絞る(転移がなければ外科手術、など)。"
+ },
+ {
+  "id": "GI-02-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "front(どの癌を除くか)と back(大腸癌以外は不能)がずれている。「大腸癌以外は原則手術不能」は過度な一般化で、神経内分泌腫瘍などの肝転移切除を無視している。",
+  "suggestion": "「多臓器転移でも手術適応が残りうる癌は?」と問い直し、一般化の表現を和らげる。"
+ },
+ {
+  "id": "GI-18-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「数ヶ月持続する下痢と血便」だけではクローン病、感染性腸炎、大腸癌も鑑別になる。コメントは内視鏡所見を根拠にしているのに、frontにそれがない。2問の抱き合わせでもある。",
+  "suggestion": "内視鏡所見をfrontに入れる。診断と鑑別を分ける。"
+ },
+ {
+  "id": "GI-18-b",
+  "severity": "low",
+  "category": "provenance",
+  "issue": "コメントの「血管透過性」を back で「血管透見」に直しているが、修正の記録がない。内容は正しいが記載上は元と異なる。",
+  "suggestion": "note に修正を記す。"
+ },
+ {
+  "id": "GI-20-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "frontが4項目の羅列で、元の選択肢の再現になっている。インスリン調整や降圧薬継続は具体的方針で、薬剤の細部は未確認。",
+  "suggestion": "項目別に分けるか、「検査前に不要な検査は?」などに絞る。"
+ },
+ {
+  "id": "GI-21-a",
+  "severity": "low",
+  "category": "provenance",
+  "issue": "補完扱いだが、「結腸に比べ広くひだも少ない」「スコープが見える反転像」はいずれもコメントに書かれているため、comment が適切。frontは画像依存。",
+  "suggestion": "content_source を comment に修正する。画像なしでも成立する書き方にする。"
+ },
+ {
+  "id": "GI-25-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "食道静脈瘤の治療はEVLとEISがあり、出血時か予防かで第一選択が変わりうる。「アルコール性」は無関係。",
+  "suggestion": "「出血時」「予防的」を明示し、ガイドライン由来であれば flags に guideline を付ける。"
+ },
+ {
+  "id": "GI-30-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「肝臓で合成される蛋白は?」は凝固因子やコリンエステラーゼなど答えが多数あり、「アルブミン、プロトロンビン」だけを正解とするのは1対1でない。",
+  "suggestion": "「肝臓で合成される蛋白を2つ」などにするか、選択肢型にする。"
+ },
+ {
+  "id": "GI-31-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "「糖尿病に高率に合併する癌」を「肝胆膵癌」とするのは非標準的な言い方。糖尿病は肝癌・膵癌・大腸癌などのリスクで、「高率に合併」は強すぎる。",
+  "suggestion": "「糖尿病でリスクが上がる癌」として、肝癌・膵癌など標準的な言い方にする。"
+ },
+ {
+  "id": "GI-33-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "コメントは「分子鎖アミノ酸」で誤記と解釈している。補完・薬剤関連である。国試的には、肝性脳症の第一選択が合成二糖類であることとの混同に注意が要る。",
+  "suggestion": "note に誤記訂正を明記する。必要なら front に「肝不全用」の限定を付ける。"
+ },
+ {
+  "id": "GI-37-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "非代償性肝硬変で低値になる検査値はコリンエステラーゼなど他にも多く、答えが2つに限定されない。",
+  "suggestion": "「低値になるものを2つ」とするか、選択肢型にする。"
+ },
+ {
+  "id": "GI-47-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "急性膵炎の代謝・循環異常は低カルシウム血症なども典型。「高血糖、血管内脱水、代謝性アシドーシス」だけを正解にするのは網羅性に欠ける。",
+  "suggestion": "「本症例でみられる」と限定し、典型所見として低Ca血症なども触れる。"
+ },
+ {
+  "id": "GS-15-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「通常通り服用せず薬剤の種類に応じて休薬・調整」は曖昧で答えにくい。具体的な薬剤方針は未確認。",
+  "suggestion": "「通常通り服用してよいか?」の是非形式にする。"
+ },
+ {
+  "id": "GS-15-b",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「いつ」に対する答えが「早期に」では測定不能。",
+  "suggestion": "「腹腔鏡下胆嚢摘出術後、早期の食事・経口鎮痛薬への移行は可能か?」にする。"
+ },
+ {
+  "id": "GS-22-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "早期胃癌の定義は、粘膜または粘膜下層にとどまる癌で、リンパ節転移の有無は問わない。この点がないため不完全。",
+  "suggestion": "「リンパ節転移の有無は問わない」を補う。"
+ },
+ {
+  "id": "GS-25-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「消化管のガスを体外に誘導する処置」は、経鼻胃管のほかイレウス管、経肛門的減圧も想定できる。",
+  "suggestion": "問題の状況(胃の減圧か、小腸か)を限定する。"
+ },
+ {
+  "id": "GS-25-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "経口摂取が不可能でも腸管が使えるなら経腸栄養が優先される。中心静脈栄養の根拠はイレウスなど腸管不使用の状況にある。",
+  "suggestion": "「腸管が使用できない」条件を front に入れる。"
+ },
+ {
+  "id": "GS-28-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "「胃切除後に影響が生じる胆汁の機能は?→胆汁排泄調節」は表現が不明瞭で検証しにくい。標準的には、胃切除後の胆石症のリスクや胆汁逆流として扱う。",
+  "suggestion": "胆嚢収縮低下・胆石形成などの標準的な表現に直す。"
+ },
+ {
+  "id": "GS-28-c",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "ダンピング症候群に伴う代謝異常は後期の低血糖が標準的で、「耐糖能異常」だけを答えにすると紛らわしい。",
+  "suggestion": "早期は食後高血糖・後期は低血糖と区別するか、コメントの表現のままとする。"
+ },
+ {
+  "id": "GS-31-a",
+  "severity": "low",
+  "category": "one_hop",
+  "issue": "GI-29-aとほぼ同じ内容の重複カード。",
+  "suggestion": "どちらかに統合する。"
+ },
+ {
+  "id": "GS-33-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "GERDの鑑別疾患は好酸球性食道炎のみではない(アカラシア、食道癌、心疾患など)。1対1にならない。",
+  "suggestion": "「GERDと鑑別すべき食道炎で好酸球が関与するものは?」と限定する。"
+ },
+ {
+  "id": "GS-54-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "front だけでは症例(増大傾向のIPMN)が不明。「最も有用な検査」はCT・MRIとの比較で変わる。ガイドライン由来のため guideline flags は妥当だが、「worrisome features」と「high-risk stigmata」が混在している。",
+  "suggestion": "症例背景をfrontに入れ、「次に行う検査」と限定する。"
+ },
+ {
+  "id": "GS-55-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "「小さな膵癌では明瞭な腫瘤を呈さないことがある」は、典型像(乏血性低吸収腫瘤)を省くと誤解を招く。",
+  "suggestion": "典型像との対比を back に入れる。"
+ },
+ {
+  "id": "GS-55-b",
+  "severity": "low",
+  "category": "leak",
+  "issue": "frontの「乏血性腫瘍」が答えのヒントになっている。超音波と血管造影の2問でもある。",
+  "suggestion": "「乏血性」を除き、2つに分ける。"
+ },
+ {
+  "id": "GS-56-c",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "「頭部癌の方が切除率が高い」は一般的傾向で、断定に弱い。",
+  "suggestion": "「とされる」の表現にとどめる。"
+ },
+ {
+  "id": "GS-58-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "コメントでは脾動脈も温存されるとしているが、backは総肝動脈と上腸間膜動脈のみで不完全。",
+  "suggestion": "脾動脈を加えるか、「胃十二指腸動脈以外は温存」と対比にする。"
+ },
+ {
+  "id": "GS-59-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「膵癌の高リスク群となる膵疾患」はIPMN・膵嚢胞も該当する。慢性膵炎のみが正解とは言えない。",
+  "suggestion": "「膵癌リスクの高い炎症性疾患」と限定する。"
+ },
+ {
+  "id": "GS-60-a",
+  "severity": "medium",
+  "category": "guideline",
+  "issue": "切除可能性分類はガイドライン由来で、細目は国試範囲を超えやすい。分類名の暗記に偏り、定義が不足している。",
+  "suggestion": "細目を絞り、各分類の定義と組み合わせる。"
+ },
+ {
+  "id": "GS-60-c",
+  "severity": "high",
+  "category": "accuracy",
+  "issue": "切除可能膵癌に「術前化学療法が標準治療として広く採用」と断定している。ガイドライン・試験名・薬剤名を含み、国試レベルを超える上、標準は手術+術後補助化学療法の整理が一般的。numeric flagも不要または不整合。",
+  "suggestion": "断定を避け、標準治療(手術+術後補助)との対比にするか、削除を検討する。flagsを整合させる。"
+ },
+ {
+  "id": "HE-03-a",
+  "severity": "low",
+  "category": "leak",
+  "issue": "frontに「巨赤芽球性貧血」が書かれていて、答えがほぼ分かる。drug_indication は不適切。",
+  "suggestion": "「大球性貧血をきたす代表的な欠乏」とし、drug_indication を外す。"
+ }
+]

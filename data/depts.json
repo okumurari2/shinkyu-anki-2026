@@ -1,0 +1,106 @@
+{
+  "AR": {
+    "dept": "アレルギー・膠原病内科",
+    "code": "AR",
+    "pdf": "アレ膠2026正解と解説.pdf",
+    "md5": "6bfb5b09f2b88bd7d9f7019c8705ba7b",
+    "ignored_duplicates": [
+      "アレ膠2026正解と解説 2.pdf"
+    ]
+  },
+  "BR": {
+    "dept": "乳腺外科",
+    "code": "BR",
+    "pdf": "乳腺外科2026正解と解説.pdf",
+    "md5": "ccacd4d73ce14c0f1290762bc0f3939c",
+    "ignored_duplicates": [
+      "乳腺外科2026正解と解説 2.pdf"
+    ]
+  },
+  "EM": {
+    "dept": "医療倫理・医療文書",
+    "code": "EM",
+    "pdf": "医療倫理・医療文書 正解と解説.pdf",
+    "md5": "295f6f75e7165f70e982f39b3572f5a1",
+    "ignored_duplicates": [
+      "医療倫理・医療文書 正解と解説 2.pdf"
+    ]
+  },
+  "RE": {
+    "dept": "呼吸器内科",
+    "code": "RE",
+    "pdf": "呼吸器内科2026正解と解説.pdf",
+    "md5": "66a94c580da97931c28f524e955e353d",
+    "ignored_duplicates": []
+  },
+  "RS": {
+    "dept": "呼吸器外科",
+    "code": "RS",
+    "pdf": "呼吸器外科2026正解と解説.pdf",
+    "md5": "f09ac77116c505e935c67fb393cc1c75",
+    "ignored_duplicates": []
+  },
+  "CV": {
+    "dept": "循環器内科",
+    "code": "CV",
+    "pdf": "循環器内科2026正解と解説.pdf",
+    "md5": "299c55c4282b92282a64df42208a13f3",
+    "ignored_duplicates": []
+  },
+  "ID": {
+    "dept": "感染症科",
+    "code": "ID",
+    "pdf": "感染症科2026正解と解説.pdf",
+    "md5": "c3389f2ef0698b3a750dd4dc28752cd5",
+    "ignored_duplicates": []
+  },
+  "GS": {
+    "dept": "消化器外科",
+    "code": "GS",
+    "pdf": "消化器外科2026正解と解説.pdf",
+    "md5": "ec832d106402b333b35d9fc6ef358480",
+    "ignored_duplicates": []
+  },
+  "DM": {
+    "dept": "糖尿病・代謝・内分泌内科",
+    "code": "DM",
+    "pdf": "糖尿病代謝内科2026解答と解説.pdf",
+    "md5": "3c92757536fad11ef8c6bcdf302ceeff",
+    "ignored_duplicates": []
+  },
+  "NE": {
+    "dept": "脳神経内科",
+    "code": "NE",
+    "pdf": "脳神経内科2026正解と解説.pdf",
+    "md5": "df4a7a5a63e33be0d4cb6299327fc899",
+    "ignored_duplicates": []
+  },
+  "NP": {
+    "dept": "腎臓内科",
+    "code": "NP",
+    "pdf": "腎臓内科2026正解と解説.pdf",
+    "md5": "e90c4f216696f6b6ca86be8565a4075b",
+    "ignored_duplicates": []
+  },
+  "HE": {
+    "dept": "血液内科",
+    "code": "HE",
+    "pdf": "血液内科2026正解と解説.pdf",
+    "md5": "abe2188cdc136a332cd684936b7775be",
+    "ignored_duplicates": []
+  },
+  "PD": {
+    "dept": "小児科",
+    "code": "PD",
+    "pdf": "小児科2026正解と解説.pdf",
+    "md5": "35a0ab257faecc58c2d0226a226bfd35",
+    "ignored_duplicates": []
+  },
+  "GI": {
+    "dept": "消化器内科",
+    "code": "GI",
+    "pdf": "消化器内科2026正解と解説.pdf",
+    "md5": "25e4640be648077d7f4c1c7533493ab9",
+    "ignored_duplicates": []
+  }
+}

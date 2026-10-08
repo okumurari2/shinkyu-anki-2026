@@ -1,0 +1,51 @@
+{"dept_code": "ID", "src_no": 1, "specificity": "high", "card_policy": "make", "flags": [], "topic": "Fitz-Hugh-Curtis症候群の原因はChlamydia trachomatis", "note": "", "topic_id": "ID-01-a"}
+{"dept_code": "ID", "src_no": 2, "specificity": "high", "card_policy": "make", "flags": ["guideline"], "topic": "65歳以上の定期接種の対象は肺炎球菌・インフルエンザ・COVID-19ワクチン", "note": "制度依存のため要確認", "topic_id": "ID-02-a"}
+{"dept_code": "ID", "src_no": 3, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "結核が確定していない段階での対応", "note": "冊子なしでは特定不能", "topic_id": "ID-03-a"}
+{"dept_code": "ID", "src_no": 4, "specificity": "high", "card_policy": "make", "flags": [], "topic": "空洞を伴う肺炎像とグラム染色でブドウ球菌=黄色ブドウ球菌を疑う", "note": "", "topic_id": "ID-04-a"}
+{"dept_code": "ID", "src_no": 5, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "アスペルギローマのCT所見", "note": "コメントは「所見が観察される」のみ。空洞内菌球(補完)", "topic_id": "ID-05-a"}
+{"dept_code": "ID", "src_no": 6, "specificity": "high", "card_policy": "make", "flags": [], "topic": "淋病の診断には尿道分泌物のグラム染色・培養・遺伝子検査を用いる", "note": "", "topic_id": "ID-06-a"}
+{"dept_code": "ID", "src_no": 7, "specificity": "high", "card_policy": "make", "flags": [], "topic": "アトピー性皮膚炎患者のHSV感染=カポジ水痘様発疹症", "note": "", "topic_id": "ID-07-a"}
+{"dept_code": "ID", "src_no": 8, "specificity": "high", "card_policy": "make", "flags": [], "topic": "梅毒の疾患活動性の指標はRPR", "note": "", "topic_id": "ID-08-a"}
+{"dept_code": "ID", "src_no": 9, "specificity": "high", "card_policy": "make", "flags": [], "topic": "先天性風疹症候群では先天性難聴をきたす", "note": "", "topic_id": "ID-09-a"}
+{"dept_code": "ID", "src_no": 10, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "緑色連鎖球菌による感染性心内膜炎にはペニシリンを用いる", "note": "", "topic_id": "ID-10-a"}
+{"dept_code": "ID", "src_no": 11, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "母親の感染は皮疹がない点が鑑別点", "note": "疾患不明", "topic_id": "ID-11-a"}
+{"dept_code": "ID", "src_no": 12, "specificity": "high", "card_policy": "make", "flags": [], "topic": "百日咳の診断は培養・遺伝子検査・抗体価検査", "note": "", "topic_id": "ID-12-a"}
+{"dept_code": "ID", "src_no": 13, "specificity": "high", "card_policy": "make", "flags": [], "topic": "Candida albicansの菌血症では眼内炎が起こりやすい", "note": "", "topic_id": "ID-13-a"}
+{"dept_code": "ID", "src_no": 14, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "伝染性単核症およびHIV感染の考慮", "note": "冊子なしでは特定不能", "topic_id": "ID-14-a"}
+{"dept_code": "ID", "src_no": 15, "specificity": "high", "card_policy": "make", "flags": [], "topic": "喀痰抗酸菌塗抹陽性なら結核の可能性を考慮する", "note": "", "topic_id": "ID-15-a"}
+{"dept_code": "ID", "src_no": 16, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "HPVワクチンで予防可能なもの", "note": "予防対象が特定不能", "topic_id": "ID-16-a"}
+{"dept_code": "ID", "src_no": 17, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "梅毒の第一選択薬はペニシリン", "note": "", "topic_id": "ID-17-a"}
+{"dept_code": "ID", "src_no": 18, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "世界の疫学情報はWHOが提供", "note": "話題レベル", "topic_id": "ID-18-a"}
+{"dept_code": "ID", "src_no": 19, "specificity": "high", "card_policy": "make", "flags": [], "topic": "10代のインフルエンザ感染では異常行動に注意する", "note": "", "topic_id": "ID-19-a"}
+{"dept_code": "ID", "src_no": 20, "specificity": "high", "card_policy": "make", "flags": [], "topic": "接触感染で広がり致死率が高い=エボラウイルス感染症を考える", "note": "", "topic_id": "ID-20-a"}
+{"dept_code": "ID", "src_no": 21, "specificity": "high", "card_policy": "make", "flags": [], "topic": "C. difficile感染症の診断には便中CDトキシン", "note": "", "topic_id": "ID-21-a"}
+{"dept_code": "ID", "src_no": 22, "specificity": "low", "card_policy": "skip", "flags": ["drug"], "topic": "ウイルス性髄膜脳炎の治療", "note": "治療内容がコメントにない", "topic_id": "ID-22-a"}
+{"dept_code": "ID", "src_no": 23, "specificity": "low", "card_policy": "skip", "flags": ["drug"], "topic": "伝染性単核症の治療", "note": "治療内容がコメントにない", "topic_id": "ID-23-a"}
+{"dept_code": "ID", "src_no": 24, "specificity": "high", "card_policy": "make", "flags": [], "topic": "耐性菌には接触予防策を徹底する", "note": "", "topic_id": "ID-24-a"}
+{"dept_code": "ID", "src_no": 25, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "A群β溶連菌感染後の合併症(リウマチ熱・急性糸球体腎炎)", "note": "コメントは論点のみ。補完", "topic_id": "ID-25-a"}
+{"dept_code": "ID", "src_no": 26, "specificity": "high", "card_policy": "make", "flags": [], "topic": "血液培養の汚染菌として多いのは表皮ブドウ球菌", "note": "", "topic_id": "ID-26-a"}
+{"dept_code": "ID", "src_no": 27, "specificity": "high", "card_policy": "make", "flags": [], "topic": "検体採取の綿棒は水平に差し込む", "note": "", "topic_id": "ID-27-a"}
+{"dept_code": "ID", "src_no": 28, "specificity": "low", "card_policy": "skip", "flags": ["disc"], "topic": "眼鏡は患者からの病原体が付着するリスクが低い", "note": "文脈不明で標準知識(防護具としての眼鏡)と合致しない可能性。記録して確認", "topic_id": "ID-28-a"}
+{"dept_code": "ID", "src_no": 29, "specificity": "low", "card_policy": "skip", "flags": [], "topic": "髄膜炎菌感染症", "note": "論点なし", "topic_id": "ID-29-a"}
+{"dept_code": "ID", "src_no": 30, "specificity": "high", "card_policy": "make", "flags": [], "topic": "手袋を脱ぐときは手が汚れないように脱ぐ", "note": "", "topic_id": "ID-30-a"}
+{"dept_code": "ID", "src_no": 31, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "帯状疱疹の皮疹の特徴", "note": "コメントは論点のみ。片側性・神経支配領域に沿う水疱(補完)", "topic_id": "ID-31-a"}
+{"dept_code": "ID", "src_no": 32, "specificity": "high", "card_policy": "make", "flags": [], "topic": "菌血症の診断は血液培養", "note": "", "topic_id": "ID-32-a"}
+{"dept_code": "ID", "src_no": 33, "specificity": "high", "card_policy": "make", "flags": [], "topic": "グラム陽性球菌のクラスター=ブドウ球菌を疑う", "note": "", "topic_id": "ID-33-a"}
+{"dept_code": "ID", "src_no": 34, "specificity": "high", "card_policy": "make", "flags": [], "topic": "住血吸虫は幼虫が皮膚を貫通して侵入する", "note": "", "topic_id": "ID-34-a"}
+{"dept_code": "ID", "src_no": 35, "specificity": "high", "card_policy": "make", "flags": [], "topic": "アデノウイルス感染では終生免疫は成立しない", "note": "", "topic_id": "ID-35-a"}
+{"dept_code": "ID", "src_no": 36, "specificity": "high", "card_policy": "make", "flags": [], "topic": "Ramsay Hunt症候群はVZVの再活性化で発症する", "note": "", "topic_id": "ID-36-a"}
+{"dept_code": "ID", "src_no": 37, "specificity": "high", "card_policy": "make", "flags": [], "topic": "Osler結節は感染性心内膜炎でみられる皮膚所見", "note": "", "topic_id": "ID-37-a"}
+{"dept_code": "ID", "src_no": 37, "specificity": "high", "card_policy": "make", "flags": [], "topic": "Roth斑は眼底の出血性梗塞で皮膚所見ではない", "note": "", "topic_id": "ID-37-b"}
+{"dept_code": "ID", "src_no": 38, "specificity": "high", "card_policy": "make", "flags": [], "topic": "空気感染する疾患は麻疹・水痘・結核", "note": "", "topic_id": "ID-38-a"}
+{"dept_code": "ID", "src_no": 39, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "TDMの対象薬はアミノグリコシド・バンコマイシン・テイコプラニン", "note": "", "topic_id": "ID-39-a"}
+{"dept_code": "ID", "src_no": 40, "specificity": "high", "card_policy": "make", "flags": [], "topic": "針刺しで問題となるのはHIV・HBV・HCV", "note": "", "topic_id": "ID-40-a"}
+{"dept_code": "ID", "src_no": 41, "specificity": "high", "card_policy": "make", "flags": [], "topic": "肺結核は排菌があるものとして陰圧室で管理する", "note": "", "topic_id": "ID-41-a"}
+{"dept_code": "ID", "src_no": 42, "specificity": "mid", "card_policy": "make", "flags": [], "topic": "結核の排菌確認は喀痰の抗酸菌検査(塗抹・培養・PCR)で行う", "note": "コメントは「排菌を確定する必要」のみ。補完", "topic_id": "ID-42-a"}
+{"dept_code": "ID", "src_no": 43, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "淋病にレボフロキサシンは無効", "note": "", "topic_id": "ID-43-a"}
+{"dept_code": "ID", "src_no": 44, "specificity": "high", "card_policy": "make", "flags": [], "topic": "妊婦ではHIV抗原・抗体同時スクリーニング検査が偽陽性になることがある", "note": "", "topic_id": "ID-44-a"}
+{"dept_code": "ID", "src_no": 45, "specificity": "high", "card_policy": "make", "flags": [], "topic": "グラム陽性球菌のクラスター+カテーテル=ブドウ球菌によるカテーテル感染を考える", "note": "", "topic_id": "ID-45-a"}
+{"dept_code": "ID", "src_no": 46, "specificity": "high", "card_policy": "make", "flags": [], "topic": "レジオネラは肝膿瘍とは無関係", "note": "", "topic_id": "ID-46-a"}
+{"dept_code": "ID", "src_no": 47, "specificity": "high", "card_policy": "make", "flags": [], "topic": "梅毒陽性ではHIVのチェックが必要", "note": "", "topic_id": "ID-47-a"}
+{"dept_code": "ID", "src_no": 48, "specificity": "high", "card_policy": "make", "flags": [], "topic": "妊婦の伝染性紅斑は胎児貧血を起こしうる", "note": "", "topic_id": "ID-48-a"}
+{"dept_code": "ID", "src_no": 49, "specificity": "high", "card_policy": "make", "flags": ["drug"], "topic": "先天性梅毒の予防には母体にペニシリンで治療する", "note": "", "topic_id": "ID-49-a"}
+{"dept_code": "ID", "src_no": 50, "specificity": "high", "card_policy": "make", "flags": [], "topic": "縦隔膿瘍は抗菌薬に加えてドレナージが必要", "note": "", "topic_id": "ID-50-a"}

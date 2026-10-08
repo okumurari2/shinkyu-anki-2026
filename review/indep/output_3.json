@@ -1,0 +1,331 @@
+[
+ {
+  "id": "ID-02-a",
+  "severity": "high",
+  "category": "accuracy",
+  "issue": "65歳以上の定期接種対象は現行制度では帯状疱疹ワクチンやRSVワクチン等も加わっており、3種のみの列挙は不完全/古い。制度依存で「～は?」の1対1回答にならない。",
+  "suggestion": "「コメント時点の」と明記するか、問いを「65歳以上の定期接種に含まれるものを挙げよ(例)」に変更、または削除。"
+ },
+ {
+  "id": "HE-29-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "血栓症ハイリスク(60歳以上・血栓症既往)のPVでは瀉血+低用量アスピリンに加え細胞減少療法(ヒドロキシカルバミド)を併用するのが標準で、back単独だと不完全で誤解を招く。flagsにguideline/numeric(60歳以上)も欠く。",
+  "suggestion": "backを「瀉血+低用量アスピリン(+必要に応じ細胞減少療法)」とし、flagsにguideline追加。"
+ },
+ {
+  "id": "HE-14-b",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "コメントは最重症・25歳・移植不可前提の症例だが、front/backにその条件がなく、重症度により薬物療法は異なる。3剤併用が常に正解とは言えない。",
+  "suggestion": "frontに「重症例の免疫抑制療法」と条件を明記。"
+ },
+ {
+  "id": "HE-16-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "Osler病の特徴として反復性鼻出血のみが答えだと不完全(毛細血管拡張、家族歴、AVM等)。「特徴は?」は1対1でなく他の答えも成立する。",
+  "suggestion": "「歯肉出血でなく反復する鼻出血が特徴の出血性疾患は?」等、鑑別形式に。"
+ },
+ {
+  "id": "HE-27-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「MDSはどのような病態?」に対し「造血不全症」は漠然としており、造血幹細胞のクローン性腫瘍・無効造血・AML移行などの方が標準的。1対1で答えにくい。",
+  "suggestion": "「輸血が必要となるHb<7の造血不全症で…」など具体化、またはクローン性疾患である点を補う。"
+ },
+ {
+  "id": "HE-27-c",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "TPO受容体作動薬の適応はITP・再生不良性貧血のみとは限らない(慢性肝疾患の血小板減少など)。「ITPと再生不良性貧血」の網羅性が過大。",
+  "suggestion": "「MDSでは用いない。主な適応は~」と表現を弱めるか、血液領域限定と明記。"
+ },
+ {
+  "id": "HE-38-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "多発性骨髄腫の「適応となる治療は?」はデキサメタゾン・PI・BP製剤も正解であり(HE-38-b)、自家移植に限定できない。年齢64歳(numeric)とguideline(移植適応年齢)のflagも不足。",
+  "suggestion": "「65歳以下で全身状態良好な場合に検討する造血幹細胞移植は?」と条件を限定し、flagsにguideline追加。"
+ },
+ {
+  "id": "HE-37-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "back「CRAB症状」は略語のみで、内容(高Ca血症・腎障害・貧血・骨病変)を答えられないと学習にならない。",
+  "suggestion": "backにCRABの各要素を展開。"
+ },
+ {
+  "id": "HE-44-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "ITPでのピロリ感染検査は尿素呼気試験のほか便中抗原・血清抗体も標準で、「まず調べる検査」は1対1ではない。",
+  "suggestion": "「非侵襲的でよく用いられる」程度に表現を緩めるか、選択肢前提であることを明記。"
+ },
+ {
+  "id": "HE-10-b",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「できる限り避けることは?」は文脈(Hb<7でも補充療法で改善)がfrontになく、答えにくい。コメントの★ポイントを単独で問うのは不明瞭。",
+  "suggestion": "frontに「ビタミンB12補充で改善が見込める場合の~」と補足。"
+ },
+ {
+  "id": "HE-11-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "Hunter舌炎の知識にdrug_indicationは該当しない。またHunter舌炎はB12欠乏だけでなく、舌痛の一般論としては鉄欠乏の舌炎との区別が必要。",
+  "suggestion": "flagsのdrug_indicationを削除。"
+ },
+ {
+  "id": "HE-15-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "PNHのPIG-AはGPIアンカー合成に関わる体細胞変異であり、「遺伝子の欠損」は不正確(遺伝性でもない)。",
+  "suggestion": "「PIG-A遺伝子の(後天的)体細胞変異」と修正。"
+ },
+ {
+  "id": "HE-17-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "ITPのピロリ除菌は薬物治療/ガイドライン由来の知識だが、flagsが空。",
+  "suggestion": "drug_indication/guidelineを追加。"
+ },
+ {
+  "id": "HE-21-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "numericフラグが付いているが数値内容はない。",
+  "suggestion": "numericを外す。"
+ },
+ {
+  "id": "HE-24-c",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "front末尾の「(APLには不適)」は文脈ヒントとして不自然で、血液疾患カードとして呼吸器内容(ゲフィチニブ)は直接の対比を超える。",
+  "suggestion": "frontから括弧を外す、またはカード削除を検討。"
+ },
+ {
+  "id": "HE-28-c",
+  "severity": "low",
+  "category": "flags",
+  "issue": "drug_indication/modifiedは該当しない(検査値の知識)。",
+  "suggestion": "flags修正。"
+ },
+ {
+  "id": "HE-41-b",
+  "severity": "low",
+  "category": "flags",
+  "issue": "輸血後GVHD予防の放射線照射はdrug_indicationではない。",
+  "suggestion": "flags修正。"
+ },
+ {
+  "id": "HE-48-c",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "頻回輸血による鉄過剰は「続発性ヘモクロマトーシス(輸血後鉄過剰症)」とされ、用語が不統一。ヘモジデローシス等の別表現もあり得る。",
+  "suggestion": "「輸血後鉄過剰症(続発性ヘモクロマトーシス)」と表記。"
+ },
+ {
+  "id": "ID-01-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "Fitz-Hugh-Curtis症候群の原因菌は淋菌もあり得るため、C. trachomatisのみの回答は1対1とは言い切れない。",
+  "suggestion": "「主な原因菌(淋菌も)」とするか、backに淋菌も可と注記。"
+ },
+ {
+  "id": "ID-06-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "百日咳・淋病の「遺伝子検査」はPCR/LAMP等の核酸検査でgeneticフラグ(遺伝性疾患)は不適切。",
+  "suggestion": "geneticを外す。"
+ },
+ {
+  "id": "ID-12-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "百日咳の遺伝子検査は病原体核酸検出でありgeneticは不適切。",
+  "suggestion": "geneticを外す。"
+ },
+ {
+  "id": "ID-09-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「聴覚の障害は?」→「先天性難聴」は同語反復的でテスト価値が低い。",
+  "suggestion": "CRSの三徴(難聴・白内障・先天性心疾患)の形にするかfront再設計。"
+ },
+ {
+  "id": "ID-10-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "緑色連鎖球菌IEの第一選択はペニシリンG、感受性により他薬もあり得る(ceftriaxone等)。薬剤名のみで条件不明。",
+  "suggestion": "「ペニシリン系(ペニシリンG)」と明記。"
+ },
+ {
+  "id": "ID-15-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "抗酸菌塗抹陽性は非結核性抗酸菌症でもあり得るため「結核」のみは断定的。",
+  "suggestion": "backに非結核性抗酸菌症の可能性も注記。"
+ },
+ {
+  "id": "ID-20-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "接触感染・高致死率のウイルス感染症はエボラ以外にもMarburg、Lassa、CCHFなどがあり1対1でない。",
+  "suggestion": "front条件(出血熱、西アフリカ流行など)を追加するかコメント前提の注記を付ける。"
+ },
+ {
+  "id": "ID-27-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "どの検体(鼻咽頭・鼻腔・咽頭等)かがfrontになく、「水平」だけでは意味が曖昧で誤解を招く。",
+  "suggestion": "検体種類を明記する。"
+ },
+ {
+  "id": "ID-30-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "「手が汚れないように脱ぐ」は同語反復で具体的手技(外側に触れない等)が無く、テスト不能。",
+  "suggestion": "具体的手技を問う形に再設計、または削除。"
+ },
+ {
+  "id": "ID-35-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "アデノウイルスは型特異的免疫が成立するため、「成立しない」は単純化し過ぎ(異なる型には再感染する)。",
+  "suggestion": "「型特異的であり終生免疫ではない」と補足。"
+ },
+ {
+  "id": "ID-37-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "IEの皮膚所見はOsler結節以外にもJaneway病変、爪下線状出血、点状出血があり、1対1でない。",
+  "suggestion": "「有痛性の指趾の結節性病変」など条件を限定。"
+ },
+ {
+  "id": "ID-46-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "「レジオネラは肝膿瘍と無関係」は否定的断定で、肺外感染の報告もある。選択肢消去用の知識で単独カードに不向き。",
+  "suggestion": "「肝膿瘍の主な原因菌」の形に変更。"
+ },
+ {
+  "id": "NE-03-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "孤発性の小脳失調症は遺伝学的検査で確定せず(MSA等)、CAGリピート以外(SCA31など)もある。コメント自体が過度に一般化している。",
+  "suggestion": "「SCA3/6などCAGリピート病の診断に」と範囲を限定。"
+ },
+ {
+  "id": "NE-08-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "backに「コメントはメコバラミン大量療法も挙げる」というメタ記述があり、学習用の答えとして不明瞭。ALS薬剤はguideline/最新承認に依存し、flagsにguideline不足。",
+  "suggestion": "backを確定した内容(リルゾール、エダラボン等)に整え、メタ記述はnoteへ。"
+ },
+ {
+  "id": "NE-10-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "疾患名(Kennedy病)をfrontで補完し、「変性受容体」を変異AR(genetic)と解釈しており、コメントの範囲を超える。補完内容に遺伝・薬剤を含む。",
+  "suggestion": "frontに疾患名を入れず「テストステロン存在下で核内蓄積する受容体」とするか補完を最小化。"
+ },
+ {
+  "id": "NE-11-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "rt-PA静注・血栓回収術の適応は時間(4.5h)に加えガイドライン依存(血栓溶解薬の種類や回収術の時間拡大)。",
+  "suggestion": "guidelineフラグを追加。"
+ },
+ {
+  "id": "NE-13-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「開頭頸部クリッピング術」は表記が不自然(正しくは脳動脈瘤頸部クリッピング術)。",
+  "suggestion": "「開頭脳動脈瘤頸部クリッピング術」と修正。"
+ },
+ {
+  "id": "NE-14-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "アルツハイマー型認知症の薬剤は列挙以外(抗アミロイド抗体薬等)も存在し、「使用される薬剤は?」は網羅的でない。",
+  "suggestion": "「コリンエステラーゼ阻害薬とNMDA受容体拮抗薬など」と表現を緩める。"
+ },
+ {
+  "id": "NE-26-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "LEMSのwaxingは高頻度刺激で出現し、低頻度ではwaningもみられる。刺激頻度の条件がないと単純化し過ぎ。",
+  "suggestion": "「高頻度刺激でwaxing」と条件補足。"
+ },
+ {
+  "id": "NE-27-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "伝導ブロック・脱髄はGBS(AIDP)やMMNでもみられ、CIDPのみとは言えない。慢性経過などの条件が必要。",
+  "suggestion": "frontに「慢性(2か月以上)の経過」などを補う。"
+ },
+ {
+  "id": "NE-37-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "コメント(脳幹・末梢神経が障害される)と異なる内容(3主徴)に置換しており、コメント由来の知識が検証されない。",
+  "suggestion": "コメントの内容を問うか、補完であることを明確化し元コメント内容は別カードに。"
+ },
+ {
+  "id": "NE-40-b",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "コメントには薬剤の記載がなく、補完内容(β遮断薬)がdrug_indicationで、補完の許容基準(薬剤適応を含まない)に反する。プリミドン等の選択肢もあり1対1でない。",
+  "suggestion": "削除、または薬剤を問わない補完にする。"
+ },
+ {
+  "id": "NP-01-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「代表疾患」を3つ答える形で1対1でなく、他にもFSGS・アミロイドーシス等が成立し得る(コメントも「あたりが相場」と曖昧)。",
+  "suggestion": "いずれか1疾患ずつの特徴を問う形に分割、または「~など」と表記。"
+ },
+ {
+  "id": "NP-10-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "front「K以外に」はコメントに無い条件追加で、蛋白・塩分制限等も正解になり得る。",
+  "suggestion": "「腎からの排泄低下でP制限が必要」など理由を前提に問う。"
+ },
+ {
+  "id": "NP-15-b",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "「NSAIDの腎臓への影響→腎臓には悪い」は内容がなくテスト不能(機序: PG合成抑制→輸入細動脈収縮)。",
+  "suggestion": "「NSAIDがAKIを起こす機序は?」にするか削除。"
+ },
+ {
+  "id": "NP-21-b",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "高Kの心電図変化はテント状T波以外(P波消失、QRS幅増大)もあり1対1でない。",
+  "suggestion": "「など」を追加。"
+ },
+ {
+  "id": "NP-31-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「腎保護に用いる薬」はNP-38-a(RAS阻害薬)と同一質問になり、DKDではRAS阻害薬も正解。カード間で答えが衝突。",
+  "suggestion": "NP-31は「DM合併CKDに加え近年適応拡大した」と限定、または統合。"
+ },
+ {
+  "id": "NP-38-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "front「腎保護の薬剤は?」がNP-31-aと同様でSGLT2阻害薬も正解になり得る。",
+  "suggestion": "「第一選択のRAS阻害薬」など特異化。"
+ },
+ {
+  "id": "NP-37-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "中年・緩徐な経過・尿蛋白のみ陽性という条件だけでは、糖尿病性腎症やFSGSなども否定できず1対1でない。",
+  "suggestion": "随伴所見(スパイク、PLA2R等)や条件を追加。"
+ }
+]

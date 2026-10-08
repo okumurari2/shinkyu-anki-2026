@@ -1,0 +1,422 @@
+[
+ {
+  "id": "NP-48-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "有効循環血漿量低下で亢進するのはRASのほかADH分泌・交感神経系もあり、前提となる設問(選択肢)なしでは1対1にならない。",
+  "suggestion": "「低Na血症の本質として有効循環血漿量低下で亢進するレニン系は?」など対象を限定、またはADHも許容する。"
+ },
+ {
+  "id": "NP-49-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「病態」と「推奨されること」の2問を1枚に詰めている。",
+  "suggestion": "サルコペニアと運動(腎臓リハ)を別カードに分割。"
+ },
+ {
+  "id": "PD-05-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "左右の理解は5歳頃とする記載も多く、国試水準では4歳以降/5歳で揺れる。コメントの「4歳以降」は幅のある表現で数値の根拠が弱い。",
+  "suggestion": "numericとして出典確認し、「4~5歳以降」など幅を示すか保留にする。"
+ },
+ {
+  "id": "PD-09-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "NCPRに基づく手順でありguidelineフラグが無い。",
+  "suggestion": "risk_flagsにguidelineを追加。"
+ },
+ {
+  "id": "PD-09-b",
+  "severity": "low",
+  "category": "flags",
+  "issue": "NCPR(胸骨圧迫の開始条件)でありguidelineフラグが無い。",
+  "suggestion": "risk_flagsにguidelineを追加。"
+ },
+ {
+  "id": "PD-25-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "満月様顔貌・中心性肥満だけだとCushing症候群/Cushing病/医原性が区別できない。",
+  "suggestion": "「コルチゾール過剰による症候群」と明示するか許容回答を拡げる。"
+ },
+ {
+  "id": "PD-25-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "Cushing症候群にはACTH非依存性(副腎腫瘍・医原性)も含まれ、CRH→ACTH→コルチゾール経路は一般論(正常な軸)としての説明に留まる。",
+  "suggestion": "「正常な視床下部-下垂体-副腎系のホルモン経路は?」とする。"
+ },
+ {
+  "id": "PD-30-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "元コメントは「正常ホルモン分泌不全症」で、成長ホルモンへの解釈は推測。乳幼児期の低身長はTurner症候群・SGA性低身長など他の鑑別もあり1対1でない。",
+  "suggestion": "原文の誤記確認後に採用。複数疾患を答えさせる形を避け、一つに絞る。"
+ },
+ {
+  "id": "PD-32-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "標準的には腸重積症の既往がある児が接種不可。「合併例」は現行表現と異なる。",
+  "suggestion": "「腸重積の既往・先天的な腸管異常」等、標準表現に合わせる。"
+ },
+ {
+  "id": "PD-33-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "SIDSのリスクは人工栄養・うつぶせ寝のほか受動喫煙等もあり、2項目だけの列挙では網羅されない。",
+  "suggestion": "「リスク因子を2つ挙げよ(例:...)」とするか受動喫煙を追記。"
+ },
+ {
+  "id": "PD-34-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "咽頭痛+発疹+眼球結膜充血なしだけでは麻疹・風疹・伝染性紅斑・猩紅熱等と区別が曖昧。コメントの根拠(発疹の分布)がfrontに無い。",
+  "suggestion": "発疹の分布など決め手となる所見を追加する。"
+ },
+ {
+  "id": "PD-39-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「CAG3塩基リピート」は「CAG(3塩基)リピート」の誤読を招く。backが長く原因+遺伝形式+疾患分類を詰めている。",
+  "suggestion": "「CAGリピート(3塩基反復)」と整理し、遺伝形式は別カードか括弧を簡潔に。"
+ },
+ {
+  "id": "PD-40-b",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「障害される臓器と知能」と複数項目を問う冗長なfrontで、backも列挙型。",
+  "suggestion": "臓器症状と「知能は正常域が多い」を分けるか、「知能は?」に絞る。"
+ },
+ {
+  "id": "PD-42-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「けいれんにまず行うこと」は一般にはABC(気道・呼吸・循環)確認・安全確保が先で、抗けいれん薬投与が唯一の正答とは言えない。コメントの文脈(前提症例)が無い。",
+  "suggestion": "「けいれん持続中の治療として」と前提を限定、またはABC確認を含める。"
+ },
+ {
+  "id": "PD-43-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "疾患名(SMA)はコメントになく補完で「要確認」のまま。CK正常・近位筋優位・AR・特異的治療は他疾患(例:肢帯型の一部)と区別が不十分。",
+  "suggestion": "疾患特異的治療ありの根拠を確認の上採用、または設問を保留。"
+ },
+ {
+  "id": "PD-46-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「心雑音」が曖昧(収縮期駆出性雑音など)で、補完内容がコメントを超える。",
+  "suggestion": "「II音の固定性分裂」に絞る。"
+ },
+ {
+  "id": "PD-53-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "列挙型で網羅性が不定(肺動脈閉鎖等も含む)。コメントは論点のみで補完が多い。",
+  "suggestion": "代表疾患を1つ答える形、または「5T」など範囲を明示。"
+ },
+ {
+  "id": "RE-04-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "「誤嚥性肺炎の予防に用いられる降圧薬」は断定的で、診療ガイドライン上の標準的適応ではなく国試的にも位置づけが曖昧。コメントも「誤り。」で始まる文脈。frontに副作用ヒントがありやや誘導的。",
+  "suggestion": "「咳反射を高め誤嚥性肺炎のリスクを下げ得る降圧薬」と表現を弱め、drug_indication/guideline注意。"
+ },
+ {
+  "id": "RE-05-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "疾患(喘息かCOPD)も重症度も不明で「急性増悪時に投与する薬」は1対1にならない(ステロイド全身投与等も正答)。",
+  "suggestion": "「気管支喘息の発作時に最初に使う薬は?」のように前提を明記。"
+ },
+ {
+  "id": "RE-07-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "同コメントでPCRも確定診断に有用とされ、培養陽性だけが答えとは言えずRE-07-bと競合する。",
+  "suggestion": "「結果判明に時間がかかるが確定診断となる検査は?」とする。"
+ },
+ {
+  "id": "RE-10-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "喘息発作でのアドレナリン(ボスミン)は、ガイドライン上β2刺激薬吸入に反応不良の中発作以上でも考慮され、「大発作以上」の限定は単純化している。guidelineフラグ欠落。",
+  "suggestion": "「大発作以上で適応」を「大発作では第一に考慮」程度にし、guidelineを追加。"
+ },
+ {
+  "id": "RE-11-c",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「抗原回避に期待できる効果は?」は答えが漠然(症状軽減)で再現性が低い。",
+  "suggestion": "「抗原回避で喘息症状は軽減するか」等、内容を具体化。"
+ },
+ {
+  "id": "RE-14-b",
+  "severity": "high",
+  "category": "accuracy",
+  "issue": "大発作の第1選択をアドレナリン筋注と断定。ガイドラインでは酸素・β2刺激薬吸入が基本でアドレナリンは(日本では皮下注/筋注)併用・追加で考慮され、「すべてに優先」は誤解を招く。numericフラグは不要、guideline欠落。",
+  "suggestion": "「アドレナリン投与(気道閉塞解除のため早期に考慮)」等に修正し、flagsをdrug_indication+guidelineへ。"
+ },
+ {
+  "id": "RE-15-b",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "COPDの問診で最も重要なのは喫煙歴で、受動喫煙歴だけを答えとするのは非標準で他の正答が成立する。",
+  "suggestion": "「喫煙歴以外に確認すべき曝露は?」とする。"
+ },
+ {
+  "id": "RE-16-b",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「COPD患者の運動は?」は漠然としていて答えが長い。",
+  "suggestion": "「COPD患者に適度な運動は推奨されるか」とする。"
+ },
+ {
+  "id": "RE-17-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "COPDの第1選択は長時間作用性気管支拡張薬(LAMA/LABA)で、「吸入抗コリン薬」とだけ記すのは不正確(LABAも可)。guidelineフラグ欠落、numericは不要。",
+  "suggestion": "「長時間作用性抗コリン薬(LAMA)またはLABA」とし、flags修正。"
+ },
+ {
+  "id": "RE-17-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "numericフラグは不要(カード内に数値なし)。guidelineが欠落。",
+  "suggestion": "flagsをdrug_indication+guidelineへ。"
+ },
+ {
+  "id": "RE-18-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "ABCアプローチはガイドライン・手順的内容でguidelineフラグが無い。",
+  "suggestion": "guidelineを追加。"
+ },
+ {
+  "id": "RE-18-b",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "RE-20-aでβ1選択性β遮断薬は使用可としており、「治療介入薬ではない」は『増悪の治療薬にはならない』という意味に限定されることが不明瞭。",
+  "suggestion": "「増悪時の治療薬か」と文脈を明記。"
+ },
+ {
+  "id": "RE-19-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「呼吸不全の型と合併しうる病態」と2項目を問い、COPDはI型でもありうる。RE-16-aとも重複。",
+  "suggestion": "「高CO2血症を伴うCOPDで起こり得る病態は?」に整理。"
+ },
+ {
+  "id": "RE-20-c",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "急性増悪抑制策は禁煙のほかワクチン等もあり、答えが1つとは限らない。",
+  "suggestion": "「最も重要な生活指導」等で限定。"
+ },
+ {
+  "id": "RE-21-b",
+  "severity": "low",
+  "category": "leak",
+  "issue": "front括弧に理由(アレルギー性機序でない)が書かれており答えを誘導。",
+  "suggestion": "括弧を削除し理由はbackへ。"
+ },
+ {
+  "id": "RE-24-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "「化学放射線療法の目標は?」は選択肢(副作用等)の文脈が無く、根治/生存期間延長/症状緩和のどれが答えか曖昧。",
+  "suggestion": "「根治を目指す治療での目標は?」など前提を補う。"
+ },
+ {
+  "id": "RE-25-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "肺転移の切除適応は原発制御・他臓器転移なし・切除可能など条件付き(RS-49-a)で、frontのみでは単純化し過ぎ。",
+  "suggestion": "条件(左右1個ずつ等)をfrontに付記するかRS-49-aと関連づける。"
+ },
+ {
+  "id": "RE-26-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "症例情報なしの「術前から酸素導入は必要か?」は症例依存で1対1にならず単独では学習不能。",
+  "suggestion": "一般論(SpO2が保たれていれば不要)として書き換える。"
+ },
+ {
+  "id": "RE-27-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "「腎癌」は「腎細胞癌」が標準表記。自然退縮は稀な現象で他の腫瘍(悪性黒色腫等)でも報告があり、断定表現は注意。",
+  "suggestion": "「腎細胞癌」に統一し、稀であることを明記。"
+ },
+ {
+  "id": "RE-34-b",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "イソシアネートは職業性喘息の原因としても代表的で、「過敏性肺炎」のみが答えとは限らない。",
+  "suggestion": "「イソシアネートで発症する過敏性肺炎(職業性)」と疾患を限定。"
+ },
+ {
+  "id": "RE-34-c",
+  "severity": "low",
+  "category": "provenance",
+  "issue": "back中の「夏型過敏性肺炎」はコメントにない補完。コメントは「バクテリア」と書くがトリコスポロンは真菌で、出典自体に誤りがある。",
+  "suggestion": "夏型の追記は補完として明示、出典の誤記を確認。"
+ },
+ {
+  "id": "RE-36-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "縦隔気腫の対応は原因(食道損傷等)の除外後の保存的治療であり、「入院安静」のみは単純化。",
+  "suggestion": "「特発性なら入院安静」など条件を付記。"
+ },
+ {
+  "id": "RE-37-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "降圧薬第一選択は合併症(積極的適応)で異なり、JSHでは4系統列挙は一般論。guideline注意。",
+  "suggestion": "「積極的適応がない場合の第一選択」と前提を明記。"
+ },
+ {
+  "id": "RE-42-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "自然気胸の処置は重症度依存(軽度は安静・経過観察、中等度以上でドレナージ)で、「第一選択はドレナージ」は条件欠落。RS-45-aと矛盾しうる。",
+  "suggestion": "「中等度以上の自然気胸」と限定。"
+ },
+ {
+  "id": "RE-44-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "横断像に主気管支以外(食道・肺動脈等)も描出されるため、問いが曖昧。",
+  "suggestion": "「気管が2本に分かれる像で見える気道は?」など限定。"
+ },
+ {
+  "id": "RE-45-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "気管の腹側にある血管は高さにより腕頭動脈・上行大動脈など異なり、レベル指定がないと1対1にならない。",
+  "suggestion": "断面の高さを明記。"
+ },
+ {
+  "id": "RE-46-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "numericフラグは不要(数値なし)。",
+  "suggestion": "flags修正。"
+ },
+ {
+  "id": "RE-47-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "「肺活量が減少する疾患」と「COPDでは何が?」の2問を括弧でまとめており、拘束性障害はIP以外でも起こる。",
+  "suggestion": "1問に絞る(拘束性障害をきたす代表疾患は?)。"
+ },
+ {
+  "id": "RS-02-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "EGFR-TKIの副作用は皮膚症状のほか間質性肺炎(重要)、下痢・肝障害等があり、「皮膚症状」だけが答えとは限らない。",
+  "suggestion": "「EGFR-TKIで最も高頻度な副作用」と限定、またはILDを別カード化。"
+ },
+ {
+  "id": "RS-03-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "乳び胸の初期対応は排液量依存で、コメントも胸水量不明の前提。「まず低脂肪食」は条件付き。",
+  "suggestion": "「排液量が少なければ」と条件を付記。"
+ },
+ {
+  "id": "RS-07-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "術後合併症を減らす方法は禁煙のほか呼吸リハ等もある。",
+  "suggestion": "「術前に必要な生活指導は?」等で限定。"
+ },
+ {
+  "id": "RS-10-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "geneticフラグは不適切(遺伝子内容なし)。",
+  "suggestion": "geneticを削除。"
+ },
+ {
+  "id": "RS-14-b",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "「気胸に対する陽圧換気は禁忌」はドレナージ前の話で、ドレーン留置後は管理可能。前提欠落で誤解を招く。",
+  "suggestion": "「ドレナージ前の気胸で陽圧換気は?」と限定。"
+ },
+ {
+  "id": "RS-22-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "漏斗胸・鳩胸はMarfan以外(Ehlers-Danlos、Noonan等)でも見られ、1対1でない。",
+  "suggestion": "「代表的関連疾患を1つ」など許容回答を明示。"
+ },
+ {
+  "id": "RS-23-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "終末期医療の厚労省ガイドライン由来でguidelineフラグが無い。",
+  "suggestion": "guidelineを追加。"
+ },
+ {
+  "id": "RS-25-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "小細胞肺癌の主な治療を「抗癌剤治療」と断定すると、限局型は化学放射線療法(RE-23-a)と矛盾。コメントは進展型(多発肝転移)の文脈。",
+  "suggestion": "「進展型小細胞肺癌」と限定。"
+ },
+ {
+  "id": "RS-25-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "早期(I期)小細胞肺癌では手術が考慮されるため「行わない」は条件付き。",
+  "suggestion": "「進展型で」と限定。"
+ },
+ {
+  "id": "RS-33-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "back「心肺機能」が漠然としていて検査項目が示されない。",
+  "suggestion": "「呼吸機能検査・心機能評価」など具体化。"
+ },
+ {
+  "id": "RS-35-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "辺縁整・境界明瞭・石灰化は結核腫等の肉芽腫でも見られ、爆米花様石灰化など決め手が無く過誤腫に一意に定まらない。",
+  "suggestion": "「ポップコーン様石灰化」など所見を追加。"
+ },
+ {
+  "id": "RS-39-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "間質性肺炎合併肺癌で放射線は「禁忌」と断定するのは強すぎ(放射線肺臓炎リスクから原則避ける/慎重)。drug_indicationよりguideline相当。",
+  "suggestion": "「原則避ける(重篤な放射線肺臓炎のリスク)」へ修正。"
+ },
+ {
+  "id": "RS-47-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "Pancoastで障害されるのはC8-T1神経根・下神経幹で、尺骨神経は末梢神経の症状領域。「尺骨神経」は簡略化。",
+  "suggestion": "「C8-T1神経根(尺骨神経領域)」と表現。"
+ },
+ {
+  "id": "RS-48-b",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "front冒頭が症例条件(治療を検討すべき)で答えを含みtautologicalで単独では意味が薄い。",
+  "suggestion": "「診断直後の胸膜中皮腫で緩和医療のみが適切か」程度に。"
+ },
+ {
+  "id": "RS-49-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "5項目列挙で長く、全項目の再生が必要な問い。",
+  "suggestion": "適応基準を項目ごとに分割。"
+ }
+]

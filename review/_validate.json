@@ -1,0 +1,19 @@
+{
+ "errors": {},
+ "warns": {
+  "front_similar": [
+   "EM-11-a ~ EM-11-b: 要配慮個人情報に含まれるものは?",
+   "GI-36-b ~ ID-46-a: レジオネラは肝膿瘍の原因か?"
+  ],
+  "answer_in_front": [
+   "CV-10-a",
+   "EM-40-a"
+  ],
+  "supplement_without_note": [
+   "GI-21-a"
+  ],
+  "snapshot": [
+   "前回ビルドなし(初回)。Step 5で基準スナップショットを作成"
+  ]
+ }
+}

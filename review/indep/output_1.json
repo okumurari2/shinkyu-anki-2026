@@ -1,0 +1,282 @@
+[
+ {
+  "id": "AR-02-b",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "コメントは副作用を問うとしか述べておらず『網膜症』は補完。薬剤副作用の補完でありdrug_indication内容。",
+  "suggestion": "コメントに根拠がない旨をnoteに明記し要確認扱いにするか、補完を外す。"
+ },
+ {
+  "id": "AR-05-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "コメントは『治療薬を問う』のみで答え(ステロイド)は補完。薬剤適応の補完は方針上リスクが高い。",
+  "suggestion": "要確認扱いにするか、出典を明記して補完とする。"
+ },
+ {
+  "id": "AR-06-b",
+  "severity": "low",
+  "category": "flags",
+  "issue": "numericフラグは不要(数値を含まない)。補完内容の根拠もコメントにない。",
+  "suggestion": "numericを外す。"
+ },
+ {
+  "id": "AR-06-c",
+  "severity": "low",
+  "category": "flags",
+  "issue": "numericフラグは不要。抗TIF1-γ抗体と悪性腫瘍の対応はコメントにない補完。",
+  "suggestion": "numericを外す。"
+ },
+ {
+  "id": "AR-11-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "数値は含まず、numericフラグの妥当性が不明。4主症状はコメント外の補完。",
+  "suggestion": "フラグ見直し。"
+ },
+ {
+  "id": "AR-13-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "『120回国試の選択肢に入った』は回次トリビアで、SLEの抗体製剤にはアニフロルマブ等もあり1対1にならない。",
+  "suggestion": "『SLEに適応のあるB細胞系抗体製剤(BLyS阻害)は?』等に限定、または回次を削る。"
+ },
+ {
+  "id": "AR-14-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "『作用の本質は?』は漠然としており答えが『免疫抑制』では検証しにくい(csDMARDsは免疫調整の側面もある)。",
+  "suggestion": "『抗リウマチ薬(MTX等)の作用はどれに分類されるか』など具体化。"
+ },
+ {
+  "id": "AR-18-b",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "『少量ステロイドが著効』は補完で、薬剤適応内容。コメントに根拠なし。",
+  "suggestion": "要確認扱い。"
+ },
+ {
+  "id": "AR-19-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "MTX中止はコメントになく補完(薬剤対応)。",
+  "suggestion": "要確認扱い、または補完を外す。"
+ },
+ {
+  "id": "AR-27-a",
+  "severity": "medium",
+  "category": "accuracy",
+  "issue": "『禁忌肢として考える』は試験対策上の表現で、ステロイドは絶対禁忌でなく腎クリーゼ誘発リスクがあり避ける、が標準。理由がなく学習に不向き。",
+  "suggestion": "『用いない(強皮症腎クリーゼのリスク)』と理由を補うか、出題意図が不明なため注意書きを付ける。"
+ },
+ {
+  "id": "AR-28-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "メポリズマブは補完で、薬剤適応(ベンラリズマブ等も存在)。1対1性にも疑問。",
+  "suggestion": "要確認扱い。"
+ },
+ {
+  "id": "AR-47-b",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "筋注・大腿前外側はコメントにない補完(薬剤使用法)。",
+  "suggestion": "要確認扱い。"
+ },
+ {
+  "id": "AR-50-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "ACE阻害薬はコメントになく補完(薬剤適応)。",
+  "suggestion": "要確認扱い。"
+ },
+ {
+  "id": "BR-04-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "答え3項目を列挙させる形式で1対1の想起に不向き。drug_indicationは不要の可能性。",
+  "suggestion": "項目を1つずつに分割、フラグ見直し。"
+ },
+ {
+  "id": "BR-18-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "前に『(針生検の評価項目も)』と二問が混在し、BR-18-bと内容が重複。",
+  "suggestion": "検査名のみに絞り、評価項目はBR-18-bへ。"
+ },
+ {
+  "id": "BR-11-b",
+  "severity": "low",
+  "category": "leak",
+  "issue": "BR-11-aと表裏の重複で、一方の答えがもう一方のヒントになる。",
+  "suggestion": "どちらか一方に統合。"
+ },
+ {
+  "id": "CV-03-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "WPWに伴う頻拍は房室回帰頻拍だけでなく、心房細動(偽性VT)もありCV-07と矛盾しうる。",
+  "suggestion": "『WPWに最も多い頻拍』などと限定。"
+ },
+ {
+  "id": "CV-04-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "『どのような不整脈発作?』は頻拍/徐脈の二択的で、問題文なしでは1対1にならない。",
+  "suggestion": "『WPW症候群の発作は頻拍か徐脈か』と対比を明示。"
+ },
+ {
+  "id": "CV-04-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "ペースメーカは徐脈が主適応だがCRT等もあり『何に対する治療』は広すぎる。",
+  "suggestion": "『ペースメーカの主な適応は?』とする。"
+ },
+ {
+  "id": "CV-07-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "RR間隔不整だけでは心房細動以外(期外収縮、房室ブロック等)も候補。『絶対性不整脈』など特異的な表現が必要。",
+  "suggestion": "『RR間隔が絶対的に不規則でP波なし』等に具体化。"
+ },
+ {
+  "id": "CV-10-a",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "『脂質異常症/高血圧のうち』の二択で50%で当たる。CHADS2の構成要素を問う形が望ましい。",
+  "suggestion": "『CHADS2の各項目は?』等にする。"
+ },
+ {
+  "id": "CV-14-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "ICD適応はガイドライン記載の内容でguidelineフラグが望ましい。",
+  "suggestion": "guidelineを追加。"
+ },
+ {
+  "id": "CV-17-a",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "back『(ST低下を認める)』は症例固有の所見でニトログリセリン有効性の根拠にならず、一般知識の問いとして不自然。",
+  "suggestion": "『有効』のみとし、ST低下の括弧を削る。"
+ },
+ {
+  "id": "CV-18-a",
+  "severity": "low",
+  "category": "ambiguity",
+  "issue": "冠攣縮性狭心症では硝酸薬も有効で『投与する薬』は1対1でない。",
+  "suggestion": "『第一選択』と明示。"
+ },
+ {
+  "id": "CV-19-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "後乳頭筋は右冠動脈単独支配とは限らず(左回旋枝の関与)、『単独』は断定的。",
+  "suggestion": "『主に右冠動脈支配』とする。"
+ },
+ {
+  "id": "CV-34-a",
+  "severity": "medium",
+  "category": "flags",
+  "issue": "CS1の定義が前に示されずコメントにもなく、収縮期血圧140超などのnumeric内容。numericフラグ欠落。",
+  "suggestion": "CS1の定義を前に補うか、numericを追加。"
+ },
+ {
+  "id": "CV-40-b",
+  "severity": "low",
+  "category": "flags",
+  "issue": "numericフラグは不要。",
+  "suggestion": "フラグ見直し。"
+ },
+ {
+  "id": "DM-02-a",
+  "severity": "low",
+  "category": "leak",
+  "issue": "前に『水再吸収ができない』とあり『低張尿』が自明。",
+  "suggestion": "『ADH分泌不全の尿所見は?』とする。"
+ },
+ {
+  "id": "DM-04-a",
+  "severity": "medium",
+  "category": "provenance",
+  "issue": "コメントに『高プロラクチン血症』の語がなくnoteでも補完と認めているのにcontent_sourceがcomment。",
+  "suggestion": "content_sourceを整合させる。"
+ },
+ {
+  "id": "DM-06-a",
+  "severity": "low",
+  "category": "flags",
+  "issue": "シックデイルールはガイドライン記載のためguidelineフラグが望ましい。",
+  "suggestion": "guidelineを追加。"
+ },
+ {
+  "id": "DM-09-b",
+  "severity": "low",
+  "category": "provenance",
+  "issue": "コメントに『褐色細胞腫』の語がなく、疾患名は補完。",
+  "suggestion": "content_sourceを整合させる。"
+ },
+ {
+  "id": "DM-17-b",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "『尿中Ca排泄の低下』はFHH以外(ビタミンD不足など)でも起き、back単独では原発性副甲状腺機能亢進症との鑑別の文脈が不明。",
+  "suggestion": "『高Ca・高PTHで尿中Ca低下なら何を疑う?』と修正。"
+ },
+ {
+  "id": "DM-26-a",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "コメントには『急性胃腸炎』も誤認候補として挙がり『誤認されうる病態』はどちらも該当。1対1でない。",
+  "suggestion": "『ケトアシドーシスで誤認される(腹痛・嘔吐を呈する)病態』等に限定。"
+ },
+ {
+  "id": "DM-27-b",
+  "severity": "low",
+  "category": "leak",
+  "issue": "front『肥満とインスリン抵抗性を背景に』で答え(2型)が自明。",
+  "suggestion": "背景条件を削る。"
+ },
+ {
+  "id": "DM-30-b",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "『週150分程度から始める』は目標値と開始点が混ざる。コメント由来だが標準表現は『週150分以上』。",
+  "suggestion": "目標量として表現。"
+ },
+ {
+  "id": "DM-38-c",
+  "severity": "low",
+  "category": "flags",
+  "issue": "genetic不要でnumericのみ。",
+  "suggestion": "genetic削除。"
+ },
+ {
+  "id": "DM-39-b",
+  "severity": "medium",
+  "category": "phrasing",
+  "issue": "『いつから?』に『比較的早期から』は曖昧で検証不能。",
+  "suggestion": "削除するか、DM-38-a/bへ統合。"
+ },
+ {
+  "id": "DM-49-b",
+  "severity": "medium",
+  "category": "ambiguity",
+  "issue": "近位尿細管で尿酸再吸収を担うのはURAT1以外にGLUT9もあり、1対1でない。名称は補完で遺伝子関連。",
+  "suggestion": "『最も代表的な』と限定、または要確認扱い。"
+ },
+ {
+  "id": "EM-07-a",
+  "severity": "low",
+  "category": "accuracy",
+  "issue": "『核は利他性』は教科書によりプロフェッショナリズムの要素列挙が異なり断定的。",
+  "suggestion": "出典を付すか、要素の一つとする。"
+ },
+ {
+  "id": "EM-07-b",
+  "severity": "low",
+  "category": "phrasing",
+  "issue": "自明で想起価値が低い。",
+  "suggestion": "削除またはEM-07-aに統合。"
+ }
+]
